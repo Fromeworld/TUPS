@@ -167,14 +167,14 @@ module parquet_sus
           end if ! l1 == l2 == 1         
 
 
-          sus_aux_d(idx_q1, form_factor) = sus_aux_d(idx_q1, form_factor) + &
-                              G_d_LL((l1 - 1) * Nf + pickNu(l10 + f_range * Nf), (l2 - 1) * Nf + pickNu(l20 + f_range * Nf), idx_q1) * &
-                              GG(idx_l1_l, idx_q1, form_factor) * GG(idx_l2_l, idx_q1, form_factor) * &
-                              1.0d0/(Nx * Nx * Ny * Ny * beta * beta)
+         ! HERE!  sus_aux_d(idx_q1, form_factor) = sus_aux_d(idx_q1, form_factor) + &
+                             ! HERE!  G_d_LL((l1 - 1) * Nf + pickNu(l10 + f_range * Nf), (l2 - 1) * Nf + pickNu(l20 + f_range * Nf), idx_q1) * &
+                             ! HERE!  GG(idx_l1_l, idx_q1, form_factor) * GG(idx_l2_l, idx_q1, form_factor) * &
+                             ! HERE!  1.0d0/(Nx * Nx * Ny * Ny * beta * beta)
                               
           sus_aux_m(idx_q1, form_factor) = sus_aux_m(idx_q1, form_factor) + &
-                              G_m_LL((l1 - 1) * Nf + pickNu(l10 + f_range * Nf), (l2 - 1) * Nf + pickNu(l20 + f_range * Nf), idx_q1) * &
-                              GG(idx_l1_l, idx_q1, form_factor) * GG(idx_l2_l, idx_q1, form_factor) * &
+                              ! HERE! G_m_LL((l1 - 1) * Nf + pickNu(l10 + f_range * Nf), (l2 - 1) * Nf + pickNu(l20 + f_range * Nf), idx_q1) * &
+                             ! HERE!  GG(idx_l1_l, idx_q1, form_factor) * GG(idx_l2_l, idx_q1, form_factor) * &
                               1.0d0/(Nx * Nx * Ny * Ny * beta * beta)
 
 
@@ -335,13 +335,13 @@ module parquet_sus
 
 
           sus_aux_s(idx_q1, form_factor) = sus_aux_s(idx_q1, form_factor) + &
-                              G_s_LL((l1 - 1) * Nf + pickNu(l10 + f_range * Nf), (l2 - 1) * Nf + pickNu(l20 + f_range * Nf), idx_q1) * &
-                              GG(idx_l1_l, idx_q1, form_factor) * GG(idx_l2_l, idx_q1, form_factor) * &
+                             ! HERE!  G_s_LL((l1 - 1) * Nf + pickNu(l10 + f_range * Nf), (l2 - 1) * Nf + pickNu(l20 + f_range * Nf), idx_q1) * &
+                             ! HERE!  GG(idx_l1_l, idx_q1, form_factor) * GG(idx_l2_l, idx_q1, form_factor) * &
                               1.0d0/(Nx * Nx * Ny * Ny * beta * beta)
                               
           sus_aux_t(idx_q1, form_factor) = sus_aux_t(idx_q1, form_factor) + &
-                              G_t_LL((l1 - 1) * Nf + pickNu(l10 + f_range * Nf), (l2 - 1) * Nf + pickNu(l20 + f_range * Nf), idx_q1) * &
-                              GG(idx_l1_l, idx_q1, form_factor) * GG(idx_l2_l, idx_q1, form_factor) * &
+                             ! HERE!  G_t_LL((l1 - 1) * Nf + pickNu(l10 + f_range * Nf), (l2 - 1) * Nf + pickNu(l20 + f_range * Nf), idx_q1) * &
+                             ! HERE!   GG(idx_l1_l, idx_q1, form_factor) * GG(idx_l2_l, idx_q1, form_factor) * &
                               1.0d0/(Nx * Nx * Ny * Ny * beta * beta)
 
 

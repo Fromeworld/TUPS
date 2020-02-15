@@ -137,14 +137,14 @@ contains
             F_d_LL((l1 - 1) * Nf + nu1, (l2 - 1) * Nf + FmB(nu1, w2), idxQ1) = &
             F_d_LL((l1 - 1) * Nf + nu1, (l2 - 1) * Nf + FmB(nu1, w2), idxQ1) + &
             signs(l3) * signs(l4) * & 
-            conjg(PhiRWork((l3 - 1) * Nf + mF(nu1), (l4 - 1) * Nf + pickNu(mF(FpB(nu1, mapQ1%iw)) + 2 * Nf), mod(w2 - 1, wperTask) + 1, R2)) * &
+            ! HERE!  conjg(PhiRWork((l3 - 1) * Nf + mF(nu1), (l4 - 1) * Nf + pickNu(mF(FpB(nu1, mapQ1%iw)) + 2 * Nf), mod(w2 - 1, wperTask) + 1, R2)) * &
             M_phbar_to_ph(l1, l2, l3, l4, idxQ1, R2) * &
             fac1 * 1.0d0/Nx
 
             F_m_LL((l1 - 1) * Nf + nu1, (l2 - 1) * Nf + FmB(nu1, w2), idxQ1) = &
             F_m_LL((l1 - 1) * Nf + nu1, (l2 - 1) * Nf + FmB(nu1, w2), idxQ1) + &
             signs(l3) * signs(l4) * & 
-            conjg(PhiRWork((l3 - 1) * Nf + mF(nu1), (l4 - 1) * Nf + pickNu(mF(FpB(nu1, mapQ1%iw)) + 2 * Nf), mod(w2 - 1, wperTask) + 1, R2)) * &
+            ! HERE! conjg(PhiRWork((l3 - 1) * Nf + mF(nu1), (l4 - 1) * Nf + pickNu(mF(FpB(nu1, mapQ1%iw)) + 2 * Nf), mod(w2 - 1, wperTask) + 1, R2)) * &
             M_phbar_to_ph(l1, l2, l3, l4, idxQ1, R2) * &
             fac2 * 1.0d0/Nx
 
@@ -417,14 +417,14 @@ contains
 
             F_s_LL((l1 - 1) * Nf + nu1, (l2 - 1) * Nf + FpB(nu1, w2), idxQ1) = &
             F_s_LL((l1 - 1) * Nf + nu1, (l2 - 1) * Nf + FpB(nu1, w2), idxQ1) + &
-            PhiRWork((l3 - 1) * Nf + nu1, (l4 - 1) * Nf + pickNu(BmBmF(mapQ1%iw, w2, nu1) + 2 * Nf), mod(w2 - 1, wperTask) + 1, R2) * &
-            M_phbar_to_pp(l1, l2, l3, l4, idxQ1, R2) * &
+            ! HERE! PhiRWork((l3 - 1) * Nf + nu1, (l4 - 1) * Nf + pickNu(BmBmF(mapQ1%iw, w2, nu1) + 2 * Nf), mod(w2 - 1, wperTask) + 1, R2) * &
+            ! HERE! M_phbar_to_pp(l1, l2, l3, l4, idxQ1, R2) * &
             fac1 * 1.0d0/Nx
               
             F_t_LL((l1 - 1) * Nf + nu1, (l2 - 1) * Nf + FpB(nu1, w2), idxQ1) = &
             F_t_LL((l1 - 1) * Nf + nu1, (l2 - 1) * Nf + FpB(nu1, w2), idxQ1) + &
-            PhiRWork((l3 - 1) * Nf + nu1, (l4 - 1) * Nf + pickNu(BmBmF(mapQ1%iw, w2, nu1) + 2 * Nf), mod(w2 - 1, wperTask) + 1, R2) * &
-            M_phbar_to_pp(l1, l2, l3, l4, idxQ1, R2) * &
+            ! HERE! PhiRWork((l3 - 1) * Nf + nu1, (l4 - 1) * Nf + pickNu(BmBmF(mapQ1%iw, w2, nu1) + 2 * Nf), mod(w2 - 1, wperTask) + 1, R2) * &
+            ! HERE! M_phbar_to_pp(l1, l2, l3, l4, idxQ1, R2) * &
             fac2 * 1.0d0/Nx
 
             !F_s_LL((l1 - 1) * Nf + nu1, (l2 - 1) * Nf + FpB(nu1, w2), idxQ1) = &
@@ -486,14 +486,14 @@ contains
             F_s_LL((l1 - 1) * Nf + nu1, (l2 - 1) * Nf + FmB(nu1, w2), idxQ1) = &
             F_s_LL((l1 - 1) * Nf + nu1, (l2 - 1) * Nf + FmB(nu1, w2), idxQ1) + &
             signs(l3) * signs(l4) * &
-            conjg(PhiRWork((l3 - 1) * Nf + mF(nu1), (l4 - 1) * Nf + pickNu(FmB(nu1, mapQ1%iw + w2 - 1) + 2 * Nf), mod(w2 - 1, wperTask) + 1, R2)) * &
-            M_phbar_to_pp(l1, l2, l3, l4, idxQ1, R2) * &
+            ! HERE! conjg(PhiRWork((l3 - 1) * Nf + mF(nu1), (l4 - 1) * Nf + pickNu(FmB(nu1, mapQ1%iw + w2 - 1) + 2 * Nf), mod(w2 - 1, wperTask) + 1, R2)) * &
+           ! HERE!  M_phbar_to_pp(l1, l2, l3, l4, idxQ1, R2) * &
             fac1 * 1.0d0/Nx
              
             F_t_LL((l1 - 1) * Nf + nu1, (l2 - 1) * Nf + FmB(nu1, w2), idxQ1) = &
             F_t_LL((l1 - 1) * Nf + nu1, (l2 - 1) * Nf + FmB(nu1, w2), idxQ1) + &
             signs(l3) * signs(l4) * &
-            conjg(PhiRWork((l3 - 1) * Nf + mF(nu1), (l4 - 1) * Nf + pickNu(FmB(nu1, mapQ1%iw + w2 - 1) + 2 * Nf), mod(w2 - 1, wperTask) + 1, R2)) * &
+            ! HERE! conjg(PhiRWork((l3 - 1) * Nf + mF(nu1), (l4 - 1) * Nf + pickNu(FmB(nu1, mapQ1%iw + w2 - 1) + 2 * Nf), mod(w2 - 1, wperTask) + 1, R2)) * &
             M_phbar_to_pp(l1, l2, l3, l4, idxQ1, R2) * &
             fac2 * 1.0d0/Nx
 

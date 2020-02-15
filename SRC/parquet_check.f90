@@ -134,7 +134,7 @@ contains
     
     !set convergence logical
     Converged = (rel_sig_max < f_sigma)
-    Converged = Converged .and. (rel_err_d < f_vert) .and. (rel_err_m < f_vert) .and. (rel_err_s < f_vert) .and. (rel_err_t < f_vert)
+    ! HERE! Converged = Converged .and. (rel_err_d < f_vert) .and. (rel_err_m < f_vert) .and. (rel_err_s < f_vert) .and. (rel_err_t < f_vert)
 
     !send value of converged to all
     call MPI_BCAST(Converged, 1, MPI_LOGICAL, master, MPI_COMM_WORLD, rc)

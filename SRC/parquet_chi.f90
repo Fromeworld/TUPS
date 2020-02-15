@@ -340,8 +340,8 @@ contains
                 end do !nu
 
                 FFG(idx1, idx2, iTau) = (dummy - &
-                exp((beta - tau) * (Ek_grain(kx_c, ky_c, kx, ky) - mu))/(1.0d0 + exp(beta * (Ek_grain(kx_c, ky_c, kx, ky) - mu)))) * &
-                FF_sdwave(kx, ky, form_factor) * FF_sdwave(kx, ky, form_factor)
+                exp((beta - tau) * (Ek_grain(kx_c, ky_c, kx, ky) - mu))/(1.0d0 + exp(beta * (Ek_grain(kx_c, ky_c, kx, ky) - mu)))) &
+                * FF_sdwave(kx, ky, form_factor) * FF_sdwave(kx, ky, form_factor)
 
               end do !iTau   
 

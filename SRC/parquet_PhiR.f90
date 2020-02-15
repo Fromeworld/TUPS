@@ -24,7 +24,7 @@ module parquet_PhiR
 
   public :: calc_PhiR
   public :: getWTask
-  public :: task_has_w
+  ! HERE! public :: task_has_w
   public :: symop_arr
   public :: calculate_expSqR
   public :: calculate_expqSR
@@ -50,22 +50,23 @@ contains
     integer(4) :: count_launch, count_iteration, count_start, count_end
 
     !allocate memory on nodes where Phi_R is saved
-    if(task_has_w()) then
+    ! HERE! 
+    ! if(task_has_w()) then
 
-      if(.not. allocated(PhiRd)) allocate(PhiRd(Nz * Nz, wperTask, NR))
-      if(.not. allocated(PhiRm)) allocate(PhiRm(Nz * Nz, wperTask, NR))
-      if(.not. allocated(PhiRs)) allocate(PhiRs(Nz * Nz, wperTask, NR))
-      if(.not. allocated(PhiRt)) allocate(PhiRt(Nz * Nz, wperTask, NR))
+    !   if(.not. allocated(PhiRd)) allocate(PhiRd(Nz * Nz, wperTask, NR))
+    !   if(.not. allocated(PhiRm)) allocate(PhiRm(Nz * Nz, wperTask, NR))
+    !   if(.not. allocated(PhiRs)) allocate(PhiRs(Nz * Nz, wperTask, NR))
+    !   if(.not. allocated(PhiRt)) allocate(PhiRt(Nz * Nz, wperTask, NR))
 
-      PhiRd = 0.0d0
-      PhiRm = 0.0d0
-      PhiRs = 0.0d0
-      PhiRt = 0.0d0
+    !   PhiRd = 0.0d0
+    !   PhiRm = 0.0d0
+    !   PhiRs = 0.0d0
+    !   PhiRt = 0.0d0
 
-      if(.not. allocated(PhiQ)) allocate(PhiQ(Nz, Nz, NIBZ * wperTask))
-      PhiQ = 0.0d0
+    !   if(.not. allocated(PhiQ)) allocate(PhiQ(Nz, Nz, NIBZ * wperTask))
+    !   PhiQ = 0.0d0
 
-    end if !task_has_w
+    ! end if !task_has_w
 
     do channel = 1, 4
 
@@ -150,7 +151,7 @@ contains
       mapQ = index_bosonic_IBZ(id * Nb + idxQ)
       target_id = getwTask(mapQ%iw)
       if(target_id .ne. id) then
-        call MPI_ISEND(SendData(:, :, idxQ), Nz * Nz, MPI_DOUBLE_COMPLEX, target_id, id * Nb + idxQ, MPI_COMM_WORLD, send_requestQ(idxQ), rc)
+        ! HERE! call MPI_ISEND(SendData(:, :, idxQ), Nz * Nz, MPI_DOUBLE_COMPLEX, target_id, id * Nb + idxQ, MPI_COMM_WORLD, send_requestQ(idxQ), rc)
       else
         PhiQ(:, :, indexR_from_indexQ(id * Nb + idxQ)) = SendData(:, :, idxQ)
       end if !frequency not already on my task
@@ -163,7 +164,7 @@ contains
       if(getwTask(mapQ1%iw) .ne. id) cycle
       source_id = get_id(idxQ_global)
       if(source_id .ne. id) then
-        call MPI_RECV(PhiQ(:, :, indexR_from_indexQ(idxQ_global)), Nz * Nz, MPI_DOUBLE_COMPLEX, source_id, idxQ_global, MPI_COMM_WORLD, stat)
+        ! HERE! call MPI_RECV(PhiQ(:, :, indexR_from_indexQ(idxQ_global)), Nz * Nz, MPI_DOUBLE_COMPLEX, source_id, idxQ_global, MPI_COMM_WORLD, stat)
       end if !source_id .ne. id
     end do !idxQ_global 
 
@@ -263,15 +264,16 @@ contains
 
 
   !determine if I (current task) save a frequency argument for PhiR
-  logical pure function task_has_w result(has_w)
+  ! HERE! 
+  ! logical pure function task_has_w result(has_w)
 
-    integer :: w
+  !   integer :: w
 
-    has_w = .false.
-    do  w = 1, Nf/2
-      if(getwTask(w) == id) has_w = .true.
-    end do !w
-  end function task_has_w
+  !   has_w = .false.
+  !   do  w = 1, Nf/2
+  !     if(getwTask(w) == id) has_w = .true.
+  !   end do !w
+  ! end function task_has_w
 
   !for given frequency return the task that it recides on
   integer pure function getwTask(w) result(ident)
