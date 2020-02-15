@@ -1,15 +1,17 @@
 DIR = ./
 
 #compiler
-# CC = mpif90 
-CC= gfortran
+CC = mpif90 
+# CC=ifort
+# CC= gfortran
 # CC = mpifort #q
 
 #Flags - ipo takes long
 #production flags
 # FFLAGS = -Ofast -ipo -g -heap-arrays -xHost -traceback -check bounds -module MOD
 
-FFLAGS = -Ofast -g -fbacktrace -fbounds-check -I/home/haixin/miniconda3/include -I/home/haixin/miniconda3/lib# translate intel ones to gfortran
+FFLAGS = -Ofast -g -fbacktrace -fbounds-check -no-pie 
+# -I/home/haixin/miniconda3/include -I/home/haixin/miniconda3/lib # translate intel ones to gfortran
 # -heap-arrays -xHost -module MOD -ipo
 
 #developement flags
@@ -20,6 +22,9 @@ FFLAGS = -Ofast -g -fbacktrace -fbounds-check -I/home/haixin/miniconda3/include 
 
 #load libraries
 LIB = $(DIR)/lib/libdfftpack.a -mkl -lhdf5_fortran -lhdf5hl_fortran -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core
+# gfortran
+# LIB = $(DIR)/lib/libdfftpack.a -lhdf5_fortran -lhdf5hl_fortran -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core
+
 
 OBJ_DIR = OBJ
 SRC_DIR = SRC
