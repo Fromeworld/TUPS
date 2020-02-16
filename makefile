@@ -1,7 +1,7 @@
 DIR = ./
 
 #compiler
-CC = mpif90 -I/usr/local/hdf5-ifort/include -L/usr/local/hdf5-ifort/lib 
+CC = mpif90 -I/usr/local/hdf5-ifort/include -L/usr/local/hdf5-ifort/lib -I/usr/include -L/usr/lib/ -I/home/haixin/miniconda3/include -L/home/haixin/miniconda3/lib
 # -I/usr/lib
 # CC = mpif90 -X -I/usr/include -L/usr/lib/ -I/home/haixin/miniconda3/include -L/home/haixin/miniconda3/lib
 # CC=ifort

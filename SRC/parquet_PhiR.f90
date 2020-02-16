@@ -50,23 +50,22 @@ contains
     integer(4) :: count_launch, count_iteration, count_start, count_end
 
     !allocate memory on nodes where Phi_R is saved
-    ! HERE! 
-    ! if(task_has_w()) then
+    if(task_has_w()) then
 
-    !   if(.not. allocated(PhiRd)) allocate(PhiRd(Nz * Nz, wperTask, NR))
-    !   if(.not. allocated(PhiRm)) allocate(PhiRm(Nz * Nz, wperTask, NR))
-    !   if(.not. allocated(PhiRs)) allocate(PhiRs(Nz * Nz, wperTask, NR))
-    !   if(.not. allocated(PhiRt)) allocate(PhiRt(Nz * Nz, wperTask, NR))
+      if(.not. allocated(PhiRd)) allocate(PhiRd(Nz * Nz, wperTask, NR))
+      if(.not. allocated(PhiRm)) allocate(PhiRm(Nz * Nz, wperTask, NR))
+      if(.not. allocated(PhiRs)) allocate(PhiRs(Nz * Nz, wperTask, NR))
+      if(.not. allocated(PhiRt)) allocate(PhiRt(Nz * Nz, wperTask, NR))
 
-    !   PhiRd = 0.0d0
-    !   PhiRm = 0.0d0
-    !   PhiRs = 0.0d0
-    !   PhiRt = 0.0d0
+      PhiRd = 0.0d0
+      PhiRm = 0.0d0
+      PhiRs = 0.0d0
+      PhiRt = 0.0d0
 
-    !   if(.not. allocated(PhiQ)) allocate(PhiQ(Nz, Nz, NIBZ * wperTask))
-    !   PhiQ = 0.0d0
+      if(.not. allocated(PhiQ)) allocate(PhiQ(Nz, Nz, NIBZ * wperTask))
+      PhiQ = 0.0d0
 
-    ! end if !task_has_w
+    end if !task_has_w
 
     do channel = 1, 4
 
