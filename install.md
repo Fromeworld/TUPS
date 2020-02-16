@@ -973,7 +973,7 @@ make: *** [TUPS] Error 1
 If you find either file in either folder, try moving something like -L/opt/intel/impi/4.0.1.007/intel64/lib to the beginning of your link line to compile. I also delete the conda and usr path.
 It works fine with out parquet_PhiR.f90
 
-now uncomment lines in parquet_PhiR.f90, still core dump
+now uncomment lines in parquet_PhiR.f90, still segmentation fault
 
 did I installed intel mpi?
 
