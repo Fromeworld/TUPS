@@ -24,7 +24,7 @@ module parquet_PhiR
 
   public :: calc_PhiR
   public :: getWTask
-  ! HERE! public :: task_has_w
+  public :: task_has_w
   public :: symop_arr
   public :: calculate_expSqR
   public :: calculate_expqSR
@@ -150,7 +150,7 @@ contains
       mapQ = index_bosonic_IBZ(id * Nb + idxQ)
       target_id = getwTask(mapQ%iw)
       if(target_id .ne. id) then
-        ! HERE! call MPI_ISEND(SendData(:, :, idxQ), Nz * Nz, MPI_DOUBLE_COMPLEX, target_id, id * Nb + idxQ, MPI_COMM_WORLD, send_requestQ(idxQ), rc)
+        call MPI_ISEND(SendData(:, :, idxQ), Nz * Nz, MPI_DOUBLE_COMPLEX, target_id, id * Nb + idxQ, MPI_COMM_WORLD, send_requestQ(idxQ), rc)
       else
         PhiQ(:, :, indexR_from_indexQ(id * Nb + idxQ)) = SendData(:, :, idxQ)
       end if !frequency not already on my task
@@ -163,7 +163,7 @@ contains
       if(getwTask(mapQ1%iw) .ne. id) cycle
       source_id = get_id(idxQ_global)
       if(source_id .ne. id) then
-        ! HERE! call MPI_RECV(PhiQ(:, :, indexR_from_indexQ(idxQ_global)), Nz * Nz, MPI_DOUBLE_COMPLEX, source_id, idxQ_global, MPI_COMM_WORLD, stat)
+        call MPI_RECV(PhiQ(:, :, indexR_from_indexQ(idxQ_global)), Nz * Nz, MPI_DOUBLE_COMPLEX, source_id, idxQ_global, MPI_COMM_WORLD, stat)
       end if !source_id .ne. id
     end do !idxQ_global 
 
@@ -263,16 +263,15 @@ contains
 
 
   !determine if I (current task) save a frequency argument for PhiR
-  ! HERE! 
-  ! logical pure function task_has_w result(has_w)
+  logical pure function task_has_w result(has_w)
 
-  !   integer :: w
+    integer :: w
 
-  !   has_w = .false.
-  !   do  w = 1, Nf/2
-  !     if(getwTask(w) == id) has_w = .true.
-  !   end do !w
-  ! end function task_has_w
+    has_w = .false.
+    do  w = 1, Nf/2
+      if(getwTask(w) == id) has_w = .true.
+    end do !w
+  end function task_has_w
 
   !for given frequency return the task that it recides on
   integer pure function getwTask(w) result(ident)
