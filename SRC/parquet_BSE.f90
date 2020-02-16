@@ -69,13 +69,13 @@ contains
       ! --- density channel ---
 
       !first ordering ...
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), G_d_LL(1:Nz, 1:Nz, idx_q), Nz, chi_ph_LL, Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(0.5d0 * f_damping, 0.0d0), chiG, Nz, F_d_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), Gamtemp, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), G_d_LL(1:Nz, 1:Nz, idx_q), Nz, chi_ph_LL, Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(0.5d0 * f_damping, 0.0d0), chiG, Nz, F_d_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), Gamtemp, Nz)
 
 
       ! ... and second ordering
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), chi_ph_LL(1:Nz, 1:Nz), Nz, G_d_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(0.5d0 * f_damping, 0.0d0), F_d_LL(1:Nz, 1:Nz, idx_q), Nz, chiG(1:Nz, 1:Nz), Nz, dcmplx(1.0d0, 0.0d0), Gamtemp, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), chi_ph_LL(1:Nz, 1:Nz), Nz, G_d_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(0.5d0 * f_damping, 0.0d0), F_d_LL(1:Nz, 1:Nz, idx_q), Nz, chiG(1:Nz, 1:Nz), Nz, dcmplx(1.0d0, 0.0d0), Gamtemp, Nz)
 
       !Mixing
       G_d_LL(1:Nz, 1:Nz, idx_q) = Gamtemp + &
@@ -85,12 +85,12 @@ contains
       ! --- magnetic channel ---
 
       !first ordering ...
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), G_m_LL(1:Nz, 1:Nz, idx_q), Nz, chi_ph_LL(1:Nz, 1:Nz), Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(0.5d0 * f_damping, 0.0d0), chiG(1:Nz, 1:Nz), Nz, F_m_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), Gamtemp, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), G_m_LL(1:Nz, 1:Nz, idx_q), Nz, chi_ph_LL(1:Nz, 1:Nz), Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(0.5d0 * f_damping, 0.0d0), chiG(1:Nz, 1:Nz), Nz, F_m_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), Gamtemp, Nz)
 
       ! ... and second ordering
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), chi_ph_LL(1:Nz, 1:Nz), Nz, G_m_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(0.5d0 * f_damping, 0.0d0), F_m_LL(1:Nz, 1:Nz, idx_q), Nz, chiG(1:Nz, 1:Nz), Nz, dcmplx(1.0d0, 0.0d0), Gamtemp, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), chi_ph_LL(1:Nz, 1:Nz), Nz, G_m_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(0.5d0 * f_damping, 0.0d0), F_m_LL(1:Nz, 1:Nz, idx_q), Nz, chiG(1:Nz, 1:Nz), Nz, dcmplx(1.0d0, 0.0d0), Gamtemp, Nz)
 
 
       !Mixing
@@ -101,12 +101,12 @@ contains
       ! --- singlet channel ---
 
       !first ordering ...
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), G_s_LL(1:Nz, 1:Nz, idx_q), Nz, chi_pp_LL(1:Nz, 1:Nz), Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(- 0.25d0 * f_damping, 0.0d0), chiG(1:Nz, 1:Nz), Nz, F_s_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), Gamtemp, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), G_s_LL(1:Nz, 1:Nz, idx_q), Nz, chi_pp_LL(1:Nz, 1:Nz), Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(- 0.25d0 * f_damping, 0.0d0), chiG(1:Nz, 1:Nz), Nz, F_s_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), Gamtemp, Nz)
 
       ! ... and second ordering
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), chi_pp_LL(1:Nz, 1:Nz), Nz, G_s_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(- 0.25d0 * f_damping, 0.0d0), F_s_LL(1:Nz, 1:Nz, idx_q), Nz, chiG(1:Nz, 1:Nz), Nz, dcmplx(1.0d0, 0.0d0), Gamtemp, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), chi_pp_LL(1:Nz, 1:Nz), Nz, G_s_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(- 0.25d0 * f_damping, 0.0d0), F_s_LL(1:Nz, 1:Nz, idx_q), Nz, chiG(1:Nz, 1:Nz), Nz, dcmplx(1.0d0, 0.0d0), Gamtemp, Nz)
 
       !Mixing
       G_s_LL(1:Nz, 1:Nz, idx_q) = Gamtemp + &
@@ -116,12 +116,12 @@ contains
       ! --- triplet channel ---
 
       !first ordering ...
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), G_t_LL(1:Nz, 1:Nz, idx_q), Nz, chi_pp_LL(1:Nz, 1:Nz), Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx( 0.25d0 * f_damping, 0.0d0), chiG(1:Nz, 1:Nz), Nz, F_t_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), Gamtemp, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), G_t_LL(1:Nz, 1:Nz, idx_q), Nz, chi_pp_LL(1:Nz, 1:Nz), Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx( 0.25d0 * f_damping, 0.0d0), chiG(1:Nz, 1:Nz), Nz, F_t_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), Gamtemp, Nz)
 
       ! ... and second ordering
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), chi_pp_LL(1:Nz, 1:Nz), Nz, G_t_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
-      ! HERE! call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx( 0.25d0 * f_damping, 0.0d0), F_t_LL(1:Nz, 1:Nz, idx_q), Nz, chiG(1:Nz, 1:Nz), Nz, dcmplx(1.0d0, 0.0d0), Gamtemp, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx(1.0d0/(beta * Nx * Ny), 0.0d0), chi_pp_LL(1:Nz, 1:Nz), Nz, G_t_LL(1:Nz, 1:Nz, idx_q), Nz, dcmplx(0.0d0, 0.0d0), chiG, Nz)
+      call ZGEMM('N', 'N', Nz, Nz, Nz, dcmplx( 0.25d0 * f_damping, 0.0d0), F_t_LL(1:Nz, 1:Nz, idx_q), Nz, chiG(1:Nz, 1:Nz), Nz, dcmplx(1.0d0, 0.0d0), Gamtemp, Nz)
 
       !Mixing
       G_t_LL(1:Nz, 1:Nz, idx_q) = Gamtemp + &

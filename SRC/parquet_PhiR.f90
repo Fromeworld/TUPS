@@ -22,7 +22,7 @@ module parquet_PhiR
   !buffers - without zgemm semms to segfault - dont know why
   complex(dp), allocatable :: dummy1(:, :), dummy2(:, :)
 
-  public :: calc_PhiR
+  ! public :: calc_PhiR
   public :: getWTask
   public :: task_has_w
   public :: symop_arr

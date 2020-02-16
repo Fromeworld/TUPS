@@ -851,3 +851,131 @@ make[1]: *** [install-recursive] Error 1
 make[1]: Leaving directory '/mnt/c/Users/haixin/Downloads/hdf5-1.10.6/fortran'
 Makefile:660: recipe for target 'install-recursive' failed
 make: *** [install-recursive] Error 1
+
+
+
+seems parquet_PhiR.f90 core dump, which if I comment give some 
+
+
+ipo: warning #11021: unresolved calc_phir_
+        Referenced in /tmp/ipo_ifortyGtQyU.o
+ipo: warning #11021: unresolved MPII_Win_set_attr
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPI_UNWEIGHTED
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPII_Type_set_attr
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPIR_Err_return_comm
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPIX_Comm_shrink
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPIX_Comm_agree
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved impi_free
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPIR_Err_create_code
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPII_Comm_set_attr
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPI_Aint_diff
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPII_F_TRUE
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved impi_realloc
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPIX_Comm_revoke
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved mpirinitf_
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPII_Keyval_set_proxy
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPIX_Comm_failure_ack
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPIR_F_MPI_IN_PLACE
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPII_Win_get_attr
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPII_Comm_get_attr_fort
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPIR_F_MPI_UNWEIGHTED
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPI_F_ARGVS_NULL
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved impi_malloc
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPIR_F_MPI_BOTTOM
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved PMPI_Aint_diff
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPII_Comm_get_attr
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPII_Grequest_set_lang_f77
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPIX_Comm_failure_get_acked
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPII_Op_set_f08
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPII_Type_get_attr
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPI_F_ERRCODES_IGNORE
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPIR_F_MPI_WEIGHTS_EMPTY
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPI_Aint_add
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPII_F_FALSE
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved PMPI_Aint_add
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+ipo: warning #11021: unresolved MPI_WEIGHTS_EMPTY
+        Referenced in /opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so
+/tmp/ipo_ifortyGtQyU.o: In function `loop_mp_execute_loop_':
+/mnt/c/Users/haixin/Documents/TUPS/SRC/loop.f90:103: undefined reference to `calc_phir_'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `PMPI_Aint_diff'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPII_Op_set_f08'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPIR_F_MPI_WEIGHTS_EMPTY'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPIX_Comm_revoke'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPIX_Comm_failure_get_acked'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPII_Comm_get_attr'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPIR_F_MPI_UNWEIGHTED'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPII_Win_set_attr'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPIX_Comm_shrink'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `PMPI_Aint_add'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPI_F_ARGVS_NULL'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPIX_Comm_failure_ack'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPI_Aint_add'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPIX_Comm_agree'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPII_Comm_set_attr'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPI_WEIGHTS_EMPTY'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPIR_Err_create_code'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPII_Keyval_set_proxy'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPIR_F_MPI_IN_PLACE'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPI_Aint_diff'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `impi_realloc'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPII_Type_get_attr'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPII_Win_get_attr'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPII_F_FALSE'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `mpirinitf_'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `impi_malloc'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPII_Grequest_set_lang_f77'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `impi_free'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPIR_F_MPI_BOTTOM'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPII_Comm_get_attr_fort'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPI_UNWEIGHTED'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPIR_Err_return_comm'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPI_F_ERRCODES_IGNORE'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPII_Type_set_attr'
+/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/lib/libmpifort.so: undefined reference to `MPII_F_TRUE'
+makefile:44: recipe for target 'TUPS' failed
+make: *** [TUPS] Error 1
+
+
+If you find either file in either folder, try moving something like -L/opt/intel/impi/4.0.1.007/intel64/lib to the beginning of your link line to compile. I also delete the conda and usr path.
+It works fine with out parquet_PhiR.f90
+
+now uncomment lines in parquet_PhiR.f90, still core dump
+
+did I installed intel mpi?
+
+
+

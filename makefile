@@ -1,7 +1,12 @@
 DIR = ./
 
+# -L/opt/intel/impi/2019.6.166/intel64/lib
+
 #compiler
-CC = mpif90 -I/usr/local/hdf5-ifort/include -L/usr/local/hdf5-ifort/lib -I/usr/include -L/usr/lib/ -I/home/haixin/miniconda3/include -L/home/haixin/miniconda3/lib
+CC = mpiifort -I/usr/local/hdf5-ifort/include -L/opt/intel/impi/2019.6.166/intel64/lib -L/usr/local/hdf5-ifort/lib 
+# -I/usr/include -L/usr/lib/ 
+# -I/home/haixin/miniconda3/include -L/home/haixin/miniconda3/lib
+# CC = mpif90 -I/usr/local/hdf5-ifort/include -L/usr/local/hdf5-ifort/lib -I/usr/include -L/usr/lib/ -I/home/haixin/miniconda3/include -L/home/haixin/miniconda3/lib
 # -I/usr/lib
 # CC = mpif90 -X -I/usr/include -L/usr/lib/ -I/home/haixin/miniconda3/include -L/home/haixin/miniconda3/lib
 # CC=ifort
@@ -13,7 +18,8 @@ CC = mpif90 -I/usr/local/hdf5-ifort/include -L/usr/local/hdf5-ifort/lib -I/usr/i
 
 #Flags - ipo takes long
 #production flags
-FFLAGS = -f90=ifort -Ofast -ipo -g -heap-arrays -xHost -traceback -check bounds -module MOD
+FFLAGS = -Ofast -ipo -g -heap-arrays -xHost -traceback -check bounds -module MOD
+# FFLAGS = -f90=ifort -Ofast -ipo -g -heap-arrays -xHost -traceback -check bounds -module MOD
 # FFLAGS = -Ofast -ipo -g -heap-arrays -xHost -traceback -check bounds -module MOD
 # FFLAGS = -Ofast -g -fbacktrace -fbounds-check -no-pie 
 # -I/home/haixin/miniconda3/include -I/home/haixin/miniconda3/lib # translate intel ones to gfortran
