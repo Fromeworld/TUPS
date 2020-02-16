@@ -9,6 +9,8 @@ source ifort
 
 point mpif90 to ifort `mpif90 -f90=ifort ...`
 
+-I/usr/local/hdf5-ifort/include -L/usr/local/hdf5-ifort/lib 
+
 <https://software.intel.com/en-us/forums/intel-clusters-and-hpc-technology/topic/288354>
 
 ## problem that do not use ifort
