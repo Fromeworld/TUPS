@@ -4,6 +4,7 @@
 *.hdf5
 *.pdf
 TUPS
-MOD/
-OBJ/
+# MOD/*
+# OBJ/*
 *.mod
+.vs

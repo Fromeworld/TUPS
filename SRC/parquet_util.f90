@@ -553,7 +553,7 @@ contains
     G_s_LL = (0.d0, 0.d0)
     G_t_LL = (0.d0, 0.d0)
 
-!use so many for loops as one can keep the frequency fixed
+    !use so many for loops as one can keep the frequency fixed
 
     DO idx_q = 1, Nb
       DO l1 = 1, Nl
@@ -640,7 +640,7 @@ contains
     G_s = (0.0d0, 0.0d0)
     G_t = (0.0d0, 0.0d0)
 
-!use so many for loops as one can keep the frequency fixed
+    !use so many for loops as one can keep the frequency fixed
     DO idx_q = 1, Nb
       DO kx1 = 1, Nx
         DO ky1 = 1, Ny

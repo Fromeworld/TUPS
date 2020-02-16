@@ -3,7 +3,7 @@ DIR = ./
 # -L/opt/intel/impi/2019.6.166/intel64/lib
 
 #compiler
-CC = mpiifort -I/usr/local/hdf5-ifort/include -L/opt/intel/impi/2019.6.166/intel64/lib -L/usr/local/hdf5-ifort/lib 
+CC = mpiifort -L/opt/intel/impi/2019.6.166/intel64/lib -I/usr/local/hdf5-ifort/include -L/usr/local/hdf5-ifort/lib 
 # -I/usr/include -L/usr/lib/ 
 # -I/home/haixin/miniconda3/include -L/home/haixin/miniconda3/lib
 # CC = mpif90 -I/usr/local/hdf5-ifort/include -L/usr/local/hdf5-ifort/lib -I/usr/include -L/usr/lib/ -I/home/haixin/miniconda3/include -L/home/haixin/miniconda3/lib

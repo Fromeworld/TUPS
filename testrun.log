@@ -1,0 +1,3621 @@
+ Starting TUPS with            2  tasks
+ reading parameters from : prms
+ Check for s- and d-wave form factor --- SUCCESS!!!
+ label on output: 
+ NxN0256_Nl0001_Nf0064_U0020_B05_Gr0001_n0100_pa_U2_new_SDEnew                  
+                      
+ time spent on initialization process: 30708.645200
+ Parameters : 
+  Beta :    5.00000000000000     
+  U :    2.00000000000000     
+  Nx :           16
+  Nf :           64
+  Nl :            1
+  NR :            1
+  ite_max :          100
+ DGA :  F
+ 
+ fixed : 
+ Ngrain :            1
+ f_range :            0
+ f_damping :   0.500000000000000     
+ nParticle :    1.00000000000000     
+ f_sigma :   1.000000000000000E-008
+ f_vert :   1.000000000000000E-008
+ f_kernel :   1.000000000000000E-008
+ writing program output to 
+ data/TUPS_NxN0256_Nl0001_Nf0064_U0020_B05_Gr0001_n0100_pa_U2_new_SDEnew.hdf5   
+                                          
+ Starting Loop
+ 
+ Starting Iteration :            0
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.021100
+ time spent on bethe-salpeter is:     1.538600
+ time for communicating Phis:     0.091500
+ time for computing FT:     3.456900
+ time for communicating Phis:     0.023000
+ time for computing FT:     3.271400
+ time for communicating Phis:     0.030800
+ time for computing FT:     3.518600
+ time for communicating Phis:     0.052300
+ time for computing FT:     4.596800
+ time spent on calculating PhiR:    15.097600
+ time spent on calculating Transformation Tensors:     0.064000
+ time spent on parquet is:     2.546900
+ time spent on selfenergy calculation is:     2.019300
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     1.000000000000
+ Max difference         :     1.000000000000
+ largest discrepancy at (kx, ky, nu) = (01 ,01 ,01 )
+ 
+ Rel. Err. Max(F_d) :           Infinity
+ Rel. Err. Max(F_m) :           Infinity
+ Rel. Err. Max(F_s) :           Infinity
+ Rel. Err. Max(F_t) :           Infinity
+ Max(F_d) :         771.320091
+ Max(F_m) :         775.092955
+ Max(F_s) :        1284.467341
+ Max(F_t) :         129.765728
+ time spent on convergence check:     0.027100
+ 
+ 
+ Intemdiate output at iteration            0
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.889000
+ 
+ 
+ iteration 00000 took        26.26 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :            1
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.014800
+ time spent on bethe-salpeter is:     1.618900
+ time for communicating Phis:     0.067000
+ time for computing FT:     3.652300
+ time for communicating Phis:     0.032100
+ time for computing FT:     3.747900
+ time for communicating Phis:     0.065600
+ time for computing FT:     3.693400
+ time for communicating Phis:     0.056700
+ time for computing FT:     3.865500
+ time spent on calculating PhiR:    15.187200
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.536200
+ time spent on selfenergy calculation is:     2.268200
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.014226651498
+ Max difference         :     0.078227047265
+ largest discrepancy at (kx, ky, nu) = (05 ,05 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.177698259925
+ Rel. Err. Max(F_m) :     0.204025364341
+ Rel. Err. Max(F_s) :     0.180244440042
+ Rel. Err. Max(F_t) :     0.436966090441
+ Max(F_d) :         908.382329
+ Max(F_m) :        1019.457402
+ Max(F_s) :        1516.170413
+ Max(F_t) :         186.468951
+ time spent on convergence check:     0.031800
+ 
+ iteration 00001 took        21.75 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :            2
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.018500
+ time spent on bethe-salpeter is:     1.746000
+ time for communicating Phis:     0.075000
+ time for computing FT:     4.040000
+ time for communicating Phis:     0.022500
+ time for computing FT:     3.896800
+ time for communicating Phis:     0.056200
+ time for computing FT:     3.815800
+ time for communicating Phis:     0.041700
+ time for computing FT:     3.683000
+ time spent on calculating PhiR:    15.640700
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.521000
+ time spent on selfenergy calculation is:     2.159100
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.011920024845
+ Max difference         :     0.068375790388
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.103656956831
+ Rel. Err. Max(F_m) :     0.132916985181
+ Rel. Err. Max(F_s) :     0.117612850078
+ Rel. Err. Max(F_t) :     0.185022207310
+ Max(F_d) :        1002.542477
+ Max(F_m) :        1238.835497
+ Max(F_s) :        1694.546966
+ Max(F_t) :         220.969848
+ time spent on convergence check:     0.026800
+ 
+ iteration 00002 took        22.18 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :            3
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020400
+ time spent on bethe-salpeter is:     1.838000
+ time for communicating Phis:     0.035800
+ time for computing FT:     3.839600
+ time for communicating Phis:     0.041600
+ time for computing FT:     4.203300
+ time for communicating Phis:     0.096200
+ time for computing FT:     4.165200
+ time for communicating Phis:     0.037500
+ time for computing FT:     4.014500
+ time spent on calculating PhiR:    16.440200
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.650500
+ time spent on selfenergy calculation is:     2.120000
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.007461804914
+ Max difference         :     0.035535370391
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.063407447066
+ Rel. Err. Max(F_m) :     0.085378412699
+ Rel. Err. Max(F_s) :     0.075580585249
+ Rel. Err. Max(F_t) :     0.099345950737
+ Max(F_d) :        1066.111136
+ Max(F_m) :        1423.887915
+ Max(F_s) :        1822.629414
+ Max(F_t) :         242.922307
+ time spent on convergence check:     0.031600
+ 
+ iteration 00003 took        23.17 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :            4
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020100
+ time spent on bethe-salpeter is:     1.637200
+ time for communicating Phis:     0.042000
+ time for computing FT:     3.750400
+ time for communicating Phis:     0.030300
+ time for computing FT:     3.654400
+ time for communicating Phis:     0.022100
+ time for computing FT:     3.608500
+ time for communicating Phis:     0.034800
+ time for computing FT:     3.529600
+ time spent on calculating PhiR:    14.685000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.410800
+ time spent on selfenergy calculation is:     2.162300
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.005679867657
+ Max difference         :     0.029317950856
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.041027770522
+ Rel. Err. Max(F_m) :     0.056096466249
+ Rel. Err. Max(F_s) :     0.049488717356
+ Rel. Err. Max(F_t) :     0.060641334154
+ Max(F_d) :        1109.851299
+ Max(F_m) :        1578.222068
+ Max(F_s) :        1912.820450
+ Max(F_t) :         257.653440
+ time spent on convergence check:     0.036800
+ 
+ iteration 00004 took        21.03 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :            5
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.019700
+ time spent on bethe-salpeter is:     1.647300
+ time for communicating Phis:     0.069000
+ time for computing FT:     3.341700
+ time for communicating Phis:     0.019800
+ time for computing FT:     3.569400
+ time for communicating Phis:     0.028100
+ time for computing FT:     3.738400
+ time for communicating Phis:     0.030200
+ time for computing FT:     3.451500
+ time spent on calculating PhiR:    14.260400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.541800
+ time spent on selfenergy calculation is:     2.269200
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.004173886168
+ Max difference         :     0.022785833978
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.027389641405
+ Rel. Err. Max(F_m) :     0.037469693580
+ Rel. Err. Max(F_s) :     0.032946041879
+ Rel. Err. Max(F_t) :     0.039210600376
+ Max(F_d) :        1140.249728
+ Max(F_m) :        1704.602086
+ Max(F_s) :        1975.827635
+ Max(F_t) :         267.756186
+ time spent on convergence check:     0.035100
+ 
+ 
+ Intemdiate output at iteration            5
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     5.175600
+ 
+ 
+ iteration 00005 took        26.02 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :            6
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.015900
+ time spent on bethe-salpeter is:     1.911400
+ time for communicating Phis:     0.087500
+ time for computing FT:     4.346700
+ time for communicating Phis:     0.026300
+ time for computing FT:     4.688600
+ time for communicating Phis:     0.038100
+ time for computing FT:     4.360000
+ time for communicating Phis:     0.031900
+ time for computing FT:     4.129300
+ time spent on calculating PhiR:    17.717900
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.707800
+ time spent on selfenergy calculation is:     2.156700
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.003105384916
+ Max difference         :     0.018160266086
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.018564205456
+ Rel. Err. Max(F_m) :     0.025367297879
+ Rel. Err. Max(F_s) :     0.022262119285
+ Rel. Err. Max(F_t) :     0.026175810549
+ Max(F_d) :        1161.417558
+ Max(F_m) :        1808.145587
+ Max(F_s) :        2019.801455
+ Max(F_t) :         274.764922
+ time spent on convergence check:     0.029100
+ 
+ iteration 00006 took        24.62 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :            7
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.019700
+ time spent on bethe-salpeter is:     1.680000
+ time for communicating Phis:     0.048500
+ time for computing FT:     3.943100
+ time for communicating Phis:     0.041800
+ time for computing FT:     3.559100
+ time for communicating Phis:     0.031800
+ time for computing FT:     3.968500
+ time for communicating Phis:     0.028100
+ time for computing FT:     3.809300
+ time spent on calculating PhiR:    15.439200
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.296700
+ time spent on selfenergy calculation is:     1.983700
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.002329937648
+ Max difference         :     0.014534354395
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.012742506863
+ Rel. Err. Max(F_m) :     0.017342736668
+ Rel. Err. Max(F_s) :     0.015229453714
+ Rel. Err. Max(F_t) :     0.017871045628
+ Max(F_d) :        1176.216929
+ Max(F_m) :        1893.269945
+ Max(F_s) :        2050.551491
+ Max(F_t) :         279.675258
+ time spent on convergence check:     0.026900
+ 
+ iteration 00007 took        21.51 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :            8
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.019400
+ time spent on bethe-salpeter is:     1.609900
+ time for communicating Phis:     0.023200
+ time for computing FT:     3.315500
+ time for communicating Phis:     0.040600
+ time for computing FT:     3.326900
+ time for communicating Phis:     0.039300
+ time for computing FT:     3.393400
+ time for communicating Phis:     0.031500
+ time for computing FT:     3.349900
+ time spent on calculating PhiR:    13.527400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.312600
+ time spent on selfenergy calculation is:     1.970800
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.001765523289
+ Max difference         :     0.011681094341
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.008877559639
+ Rel. Err. Max(F_m) :     0.011940118309
+ Rel. Err. Max(F_s) :     0.010527618462
+ Rel. Err. Max(F_t) :     0.012323800920
+ Max(F_d) :        1186.658865
+ Max(F_m) :        1963.587545
+ Max(F_s) :        2072.130581
+ Max(F_t) :         283.121920
+ time spent on convergence check:     0.026500
+ 
+ iteration 00008 took        19.53 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :            9
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020100
+ time spent on bethe-salpeter is:     1.641100
+ time for communicating Phis:     0.032800
+ time for computing FT:     3.381400
+ time for communicating Phis:     0.033300
+ time for computing FT:     3.343300
+ time for communicating Phis:     0.029400
+ time for computing FT:     3.362700
+ time for communicating Phis:     0.039100
+ time for computing FT:     3.362500
+ time spent on calculating PhiR:    13.592400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.405700
+ time spent on selfenergy calculation is:     2.054500
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.001350403147
+ Max difference         :     0.009410685596
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.006228402604
+ Rel. Err. Max(F_m) :     0.008260818568
+ Rel. Err. Max(F_s) :     0.007343835868
+ Rel. Err. Max(F_t) :     0.008580349219
+ Max(F_d) :        1194.049854
+ Max(F_m) :        2021.979271
+ Max(F_s) :        2087.341532
+ Max(F_t) :         285.551205
+ time spent on convergence check:     0.037100
+ 
+ iteration 00009 took        19.85 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           10
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.023500
+ time spent on bethe-salpeter is:     1.812300
+ time for communicating Phis:     0.054300
+ time for computing FT:     3.469400
+ time for communicating Phis:     0.039500
+ time for computing FT:     3.946900
+ time for communicating Phis:     0.030200
+ time for computing FT:     3.798300
+ time for communicating Phis:     0.032400
+ time for computing FT:     3.573400
+ time spent on calculating PhiR:    14.949600
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.556400
+ time spent on selfenergy calculation is:     2.168800
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.001042009072
+ Max difference         :     0.007595303436
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.004385744294
+ Rel. Err. Max(F_m) :     0.005734139344
+ Rel. Err. Max(F_s) :     0.005165404472
+ Rel. Err. Max(F_t) :     0.006023036424
+ Max(F_d) :        1199.286652
+ Max(F_m) :        2070.722348
+ Max(F_s) :        2098.118618
+ Max(F_t) :         287.271090
+ time spent on convergence check:     0.040000
+ 
+ 
+ Intemdiate output at iteration           10
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.728100
+ 
+ 
+ iteration 00010 took        26.35 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           11
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.014500
+ time spent on bethe-salpeter is:     1.650600
+ time for communicating Phis:     0.065000
+ time for computing FT:     3.622700
+ time for communicating Phis:     0.028500
+ time for computing FT:     3.477100
+ time for communicating Phis:     0.028700
+ time for computing FT:     4.216700
+ time for communicating Phis:     0.027800
+ time for computing FT:     4.338400
+ time spent on calculating PhiR:    15.813800
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.960200
+ time spent on selfenergy calculation is:     2.072200
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000810584556
+ Max difference         :     0.006138791343
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.003109992287
+ Rel. Err. Max(F_m) :     0.003988510102
+ Rel. Err. Max(F_s) :     0.003661690705
+ Rel. Err. Max(F_t) :     0.004259229490
+ Max(F_d) :        1203.016424
+ Max(F_m) :        2111.613911
+ Max(F_s) :        2105.797622
+ Max(F_t) :         288.494644
+ time spent on convergence check:     0.028800
+ 
+ iteration 00011 took        22.61 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           12
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.018400
+ time spent on bethe-salpeter is:     1.618100
+ time for communicating Phis:     0.063300
+ time for computing FT:     3.476300
+ time for communicating Phis:     0.068600
+ time for computing FT:     3.364400
+ time for communicating Phis:     0.040000
+ time for computing FT:     4.204000
+ time for communicating Phis:     0.050600
+ time for computing FT:     4.356300
+ time spent on calculating PhiR:    15.634300
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.360000
+ time spent on selfenergy calculation is:     2.016800
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000635239850
+ Max difference         :     0.004967517500
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.002220739092
+ Rel. Err. Max(F_m) :     0.002777263360
+ Rel. Err. Max(F_s) :     0.002615630465
+ Rel. Err. Max(F_t) :     0.003033261890
+ Max(F_d) :        1205.688010
+ Max(F_m) :        2146.075617
+ Max(F_s) :        2111.302885
+ Max(F_t) :         289.369724
+ time spent on convergence check:     0.027000
+ 
+ iteration 00012 took        21.74 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           13
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.016400
+ time spent on bethe-salpeter is:     1.636700
+ time for communicating Phis:     0.022700
+ time for computing FT:     3.411600
+ time for communicating Phis:     0.034600
+ time for computing FT:     3.379800
+ time for communicating Phis:     0.031900
+ time for computing FT:     3.379500
+ time for communicating Phis:     0.034500
+ time for computing FT:     3.623900
+ time spent on calculating PhiR:    13.925400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.786700
+ time spent on selfenergy calculation is:     2.514400
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000501172603
+ Max difference         :     0.004024027608
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.001596942425
+ Rel. Err. Max(F_m) :     0.001934208822
+ Rel. Err. Max(F_s) :     0.001882689723
+ Rel. Err. Max(F_t) :     0.002186000196
+ Max(F_d) :        1207.613424
+ Max(F_m) :        2175.237418
+ Max(F_s) :        2115.275785
+ Max(F_t) :         290.002286
+ time spent on convergence check:     0.028100
+ 
+ iteration 00013 took        20.99 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           14
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.017400
+ time spent on bethe-salpeter is:     1.741300
+ time for communicating Phis:     0.053100
+ time for computing FT:     3.758500
+ time for communicating Phis:     0.047700
+ time for computing FT:     3.421300
+ time for communicating Phis:     0.044300
+ time for computing FT:     3.410400
+ time for communicating Phis:     0.041300
+ time for computing FT:     3.366500
+ time spent on calculating PhiR:    14.150600
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.302600
+ time spent on selfenergy calculation is:     1.991400
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000397794603
+ Max difference         :     0.003263038717
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.001156618244
+ Rel. Err. Max(F_m) :     0.001346146681
+ Rel. Err. Max(F_s) :     0.001365562236
+ Rel. Err. Max(F_t) :     0.001583664236
+ Max(F_d) :        1209.010172
+ Max(F_m) :        2200.002954
+ Max(F_s) :        2118.162815
+ Max(F_t) :         290.461552
+ time spent on convergence check:     0.026700
+ 
+ iteration 00014 took        20.30 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           15
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.019500
+ time spent on bethe-salpeter is:     1.639400
+ time for communicating Phis:     0.037800
+ time for computing FT:     3.376600
+ time for communicating Phis:     0.027700
+ time for computing FT:     3.291900
+ time for communicating Phis:     0.029900
+ time for computing FT:     3.330300
+ time for communicating Phis:     0.029800
+ time for computing FT:     3.343500
+ time spent on calculating PhiR:    13.479200
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.271800
+ time spent on selfenergy calculation is:     2.090500
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000317456619
+ Max difference         :     0.002648605572
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000843831263
+ Rel. Err. Max(F_m) :     0.000935353370
+ Rel. Err. Max(F_s) :     0.000998165192
+ Rel. Err. Max(F_t) :     0.001152133441
+ Max(F_d) :        1210.030372
+ Max(F_m) :        2221.099984
+ Max(F_s) :        2120.275964
+ Max(F_t) :         290.796203
+ time spent on convergence check:     0.027900
+ 
+ 
+ Intemdiate output at iteration           15
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.758100
+ 
+ 
+ iteration 00015 took        24.35 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           16
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.017300
+ time spent on bethe-salpeter is:     1.733900
+ time for communicating Phis:     0.084900
+ time for computing FT:     3.466300
+ time for communicating Phis:     0.032100
+ time for computing FT:     3.944200
+ time for communicating Phis:     0.050700
+ time for computing FT:     4.056500
+ time for communicating Phis:     0.029400
+ time for computing FT:     3.770600
+ time spent on calculating PhiR:    15.444100
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.589100
+ time spent on selfenergy calculation is:     2.005600
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000254576965
+ Max difference         :     0.002152053820
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000620190670
+ Rel. Err. Max(F_m) :     0.000648150894
+ Rel. Err. Max(F_s) :     0.000735300791
+ Rel. Err. Max(F_t) :     0.000844237545
+ Max(F_d) :        1210.780822
+ Max(F_m) :        2239.119016
+ Max(F_s) :        2121.834161
+ Max(F_t) :         291.041704
+ time spent on convergence check:     0.026100
+ 
+ iteration 00016 took        21.89 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           17
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.017800
+ time spent on bethe-salpeter is:     1.682300
+ time for communicating Phis:     0.032100
+ time for computing FT:     3.381700
+ time for communicating Phis:     0.045300
+ time for computing FT:     3.549700
+ time for communicating Phis:     0.082100
+ time for computing FT:     3.971400
+ time for communicating Phis:     0.040800
+ time for computing FT:     3.667500
+ time spent on calculating PhiR:    14.784300
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     3.153700
+ time spent on selfenergy calculation is:     2.036600
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000205041891
+ Max difference         :     0.001750429723
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000459209674
+ Rel. Err. Max(F_m) :     0.000447306247
+ Rel. Err. Max(F_s) :     0.000545866469
+ Rel. Err. Max(F_t) :     0.000623126245
+ Max(F_d) :        1211.336824
+ Max(F_m) :        2254.542853
+ Max(F_s) :        2122.991764
+ Max(F_t) :         291.223060
+ time spent on convergence check:     0.028600
+ 
+ iteration 00017 took        21.77 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           18
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.019400
+ time spent on bethe-salpeter is:     1.598100
+ time for communicating Phis:     0.069900
+ time for computing FT:     3.350900
+ time for communicating Phis:     0.019300
+ time for computing FT:     3.383000
+ time for communicating Phis:     0.026600
+ time for computing FT:     3.268600
+ time for communicating Phis:     0.032600
+ time for computing FT:     3.285500
+ time spent on calculating PhiR:    13.448000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.292900
+ time spent on selfenergy calculation is:     1.979000
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000165789956
+ Max difference         :     0.001425315366
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000342525173
+ Rel. Err. Max(F_m) :     0.000306906884
+ Rel. Err. Max(F_s) :     0.000408339332
+ Rel. Err. Max(F_t) :     0.000463271604
+ Max(F_d) :        1211.751737
+ Max(F_m) :        2267.769180
+ Max(F_s) :        2123.858184
+ Max(F_t) :         291.357975
+ time spent on convergence check:     0.025100
+ 
+ iteration 00018 took        19.43 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           19
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020400
+ time spent on bethe-salpeter is:     1.572200
+ time for communicating Phis:     0.029200
+ time for computing FT:     3.287900
+ time for communicating Phis:     0.030600
+ time for computing FT:     3.314400
+ time for communicating Phis:     0.030000
+ time for computing FT:     3.282600
+ time for communicating Phis:     0.028400
+ time for computing FT:     3.266800
+ time spent on calculating PhiR:    13.281700
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.268300
+ time spent on selfenergy calculation is:     2.012800
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000134521547
+ Max difference         :     0.001161909333
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000257344644
+ Rel. Err. Max(F_m) :     0.000208870607
+ Rel. Err. Max(F_s) :     0.000307744684
+ Rel. Err. Max(F_t) :     0.000346904504
+ Max(F_d) :        1212.063575
+ Max(F_m) :        2279.127876
+ Max(F_s) :        2124.511425
+ Max(F_t) :         291.459048
+ time spent on convergence check:     0.026900
+ 
+ iteration 00019 took        19.25 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           20
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020500
+ time spent on bethe-salpeter is:     1.580700
+ time for communicating Phis:     0.030300
+ time for computing FT:     3.279300
+ time for communicating Phis:     0.031400
+ time for computing FT:     3.285600
+ time for communicating Phis:     0.032900
+ time for computing FT:     3.321100
+ time for communicating Phis:     0.031100
+ time for computing FT:     3.285100
+ time spent on calculating PhiR:    13.308600
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.360000
+ time spent on selfenergy calculation is:     2.101600
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000109493992
+ Max difference         :     0.000948304774
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000194711907
+ Rel. Err. Max(F_m) :     0.000140551327
+ Rel. Err. Max(F_s) :     0.000233606421
+ Rel. Err. Max(F_t) :     0.000261597036
+ Max(F_d) :        1212.299578
+ Max(F_m) :        2288.894354
+ Max(F_s) :        2125.007445
+ Max(F_t) :         291.535293
+ time spent on convergence check:     0.025300
+ 
+ 
+ Intemdiate output at iteration           20
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.505500
+ 
+ 
+ iteration 00020 took        23.95 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           21
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.014400
+ time spent on bethe-salpeter is:     1.604100
+ time for communicating Phis:     0.066400
+ time for computing FT:     3.313200
+ time for communicating Phis:     0.038100
+ time for computing FT:     3.398100
+ time for communicating Phis:     0.038800
+ time for computing FT:     3.272800
+ time for communicating Phis:     0.036400
+ time for computing FT:     3.314900
+ time spent on calculating PhiR:    13.485600
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.309500
+ time spent on selfenergy calculation is:     2.005700
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000089375699
+ Max difference         :     0.000774917286
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000148323736
+ Rel. Err. Max(F_m) :     0.000093087987
+ Rel. Err. Max(F_s) :     0.000178553569
+ Rel. Err. Max(F_t) :     0.000198613564
+ Max(F_d) :        1212.479391
+ Max(F_m) :        2297.299886
+ Max(F_s) :        2125.386658
+ Max(F_t) :         291.593196
+ time spent on convergence check:     0.028600
+ 
+ iteration 00021 took        19.53 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           22
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020200
+ time spent on bethe-salpeter is:     1.642700
+ time for communicating Phis:     0.023300
+ time for computing FT:     4.034700
+ time for communicating Phis:     0.040600
+ time for computing FT:     3.946000
+ time for communicating Phis:     0.045500
+ time for computing FT:     3.876200
+ time for communicating Phis:     0.043300
+ time for computing FT:     4.156200
+ time spent on calculating PhiR:    16.176800
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.785000
+ time spent on selfenergy calculation is:     2.280500
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000073141286
+ Max difference         :     0.000634028586
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000113719241
+ Rel. Err. Max(F_m) :     0.000060261499
+ Rel. Err. Max(F_s) :     0.000137368574
+ Rel. Err. Max(F_t) :     0.000151781283
+ Max(F_d) :        1212.617273
+ Max(F_m) :        2304.539664
+ Max(F_s) :        2125.678453
+ Max(F_t) :         291.637454
+ time spent on convergence check:     0.027100
+ 
+ iteration 00022 took        23.00 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           23
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.019700
+ time spent on bethe-salpeter is:     1.694900
+ time for communicating Phis:     0.032300
+ time for computing FT:     3.524000
+ time for communicating Phis:     0.047200
+ time for computing FT:     3.663800
+ time for communicating Phis:     0.059600
+ time for computing FT:     3.636500
+ time for communicating Phis:     0.043000
+ time for computing FT:     3.907200
+ time spent on calculating PhiR:    14.927400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.728900
+ time spent on selfenergy calculation is:     2.087700
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000059995484
+ Max difference         :     0.000519420967
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000087722620
+ Rel. Err. Max(F_m) :     0.000037700970
+ Rel. Err. Max(F_s) :     0.000106334614
+ Rel. Err. Max(F_t) :     0.000116713780
+ Max(F_d) :        1212.723647
+ Max(F_m) :        2310.779152
+ Max(F_s) :        2125.904357
+ Max(F_t) :         291.671492
+ time spent on convergence check:     0.029700
+ 
+ iteration 00023 took        21.56 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           24
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.029100
+ time spent on bethe-salpeter is:     1.621000
+ time for communicating Phis:     0.066200
+ time for computing FT:     4.105900
+ time for communicating Phis:     0.020400
+ time for computing FT:     4.044900
+ time for communicating Phis:     0.028700
+ time for computing FT:     3.921100
+ time for communicating Phis:     0.040900
+ time for computing FT:     4.753700
+ time spent on calculating PhiR:    16.992500
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     3.540400
+ time spent on selfenergy calculation is:     2.682900
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000049317393
+ Max difference         :     0.000426083752
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000068058744
+ Rel. Err. Max(F_m) :     0.000022331046
+ Rel. Err. Max(F_s) :     0.000082786201
+ Rel. Err. Max(F_t) :     0.000090275428
+ Max(F_d) :        1212.806184
+ Max(F_m) :        2316.159126
+ Max(F_s) :        2126.080251
+ Max(F_t) :         291.697823
+ time spent on convergence check:     0.037600
+ 
+ iteration 00024 took        24.98 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           25
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020500
+ time spent on bethe-salpeter is:     1.637200
+ time for communicating Phis:     0.053700
+ time for computing FT:     3.349200
+ time for communicating Phis:     0.074200
+ time for computing FT:     3.481900
+ time for communicating Phis:     0.037100
+ time for computing FT:     3.492000
+ time for communicating Phis:     0.037500
+ time for computing FT:     3.462400
+ time spent on calculating PhiR:    13.995800
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.388900
+ time spent on selfenergy calculation is:     1.973500
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000040619285
+ Max difference         :     0.000349977265
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000053086999
+ Rel. Err. Max(F_m) :     0.000011986238
+ Rel. Err. Max(F_s) :     0.000064798478
+ Rel. Err. Max(F_t) :     0.000070210616
+ Max(F_d) :        1212.870568
+ Max(F_m) :        2320.799724
+ Max(F_s) :        2126.217939
+ Max(F_t) :         291.718304
+ time spent on convergence check:     0.024800
+ 
+ 
+ Intemdiate output at iteration           25
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.464700
+ 
+ 
+ iteration 00025 took        24.56 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           26
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.014200
+ time spent on bethe-salpeter is:     1.602800
+ time for communicating Phis:     0.073500
+ time for computing FT:     3.377400
+ time for communicating Phis:     0.020000
+ time for computing FT:     3.303200
+ time for communicating Phis:     0.025800
+ time for computing FT:     3.332200
+ time for communicating Phis:     0.027200
+ time for computing FT:     3.451900
+ time spent on calculating PhiR:    13.619400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.348400
+ time spent on selfenergy calculation is:     1.999900
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000033515898
+ Max difference         :     0.000287842960
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000041616273
+ Rel. Err. Max(F_m) :     0.000005141190
+ Rel. Err. Max(F_s) :     0.000050971473
+ Rel. Err. Max(F_t) :     0.000054886139
+ Max(F_d) :        1212.921043
+ Max(F_m) :        2324.803734
+ Max(F_s) :        2126.326253
+ Max(F_t) :         291.734315
+ time spent on convergence check:     0.028200
+ 
+ iteration 00026 took        19.68 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           27
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.019300
+ time spent on bethe-salpeter is:     1.641300
+ time for communicating Phis:     0.030200
+ time for computing FT:     3.603900
+ time for communicating Phis:     0.030500
+ time for computing FT:     3.344100
+ time for communicating Phis:     0.032700
+ time for computing FT:     3.322700
+ time for communicating Phis:     0.034100
+ time for computing FT:     3.521900
+ time spent on calculating PhiR:    13.931700
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.533800
+ time spent on selfenergy calculation is:     2.024000
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000027701351
+ Max difference         :     0.000237050721
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000032775789
+ Rel. Err. Max(F_m) :     0.000000721625
+ Rel. Err. Max(F_s) :     0.000040279570
+ Rel. Err. Max(F_t) :     0.000043111473
+ Max(F_d) :        1212.960798
+ Max(F_m) :        2328.259269
+ Max(F_s) :        2126.411851
+ Max(F_t) :         291.746892
+ time spent on convergence check:     0.027000
+ 
+ iteration 00027 took        20.24 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           28
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020900
+ time spent on bethe-salpeter is:     1.598600
+ time for communicating Phis:     0.031800
+ time for computing FT:     3.303600
+ time for communicating Phis:     0.024900
+ time for computing FT:     3.348200
+ time for communicating Phis:     0.022800
+ time for computing FT:     3.474900
+ time for communicating Phis:     0.034000
+ time for computing FT:     3.651100
+ time spent on calculating PhiR:    13.903900
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.388700
+ time spent on selfenergy calculation is:     2.004000
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000022931671
+ Max difference         :     0.000195476059
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000025924492
+ Rel. Err. Max(F_m) :     0.000002028436
+ Rel. Err. Max(F_s) :     0.000031965938
+ Rel. Err. Max(F_t) :     0.000034012842
+ Max(F_d) :        1212.992243
+ Max(F_m) :        2331.241992
+ Max(F_s) :        2126.479784
+ Max(F_t) :         291.756815
+ time spent on convergence check:     0.030400
+ 
+ iteration 00028 took        20.02 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           29
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020700
+ time spent on bethe-salpeter is:     1.604200
+ time for communicating Phis:     0.028100
+ time for computing FT:     3.395800
+ time for communicating Phis:     0.023800
+ time for computing FT:     3.673700
+ time for communicating Phis:     0.024100
+ time for computing FT:     3.902800
+ time for communicating Phis:     0.052100
+ time for computing FT:     3.643500
+ time spent on calculating PhiR:    14.756000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.637500
+ time spent on selfenergy calculation is:     2.050200
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000019011441
+ Max difference         :     0.000161401430
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000020587153
+ Rel. Err. Max(F_m) :     0.000003640131
+ Rel. Err. Max(F_s) :     0.000025468068
+ Rel. Err. Max(F_t) :     0.000026944531
+ Max(F_d) :        1213.017215
+ Max(F_m) :        2333.816956
+ Max(F_s) :        2126.533910
+ Max(F_t) :         291.764676
+ time spent on convergence check:     0.027100
+ 
+ iteration 00029 took        21.18 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           30
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.021900
+ time spent on bethe-salpeter is:     1.636800
+ time for communicating Phis:     0.041300
+ time for computing FT:     3.718800
+ time for communicating Phis:     0.033500
+ time for computing FT:     3.864400
+ time for communicating Phis:     0.032500
+ time for computing FT:     4.061200
+ time for communicating Phis:     0.032300
+ time for computing FT:     4.090900
+ time spent on calculating PhiR:    15.886900
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.557100
+ time spent on selfenergy calculation is:     2.025800
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000015783547
+ Max difference         :     0.000133436937
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000016409058
+ Rel. Err. Max(F_m) :     0.000004485663
+ Rel. Err. Max(F_s) :     0.000020364938
+ Rel. Err. Max(F_t) :     0.000021426111
+ Max(F_d) :        1213.037120
+ Max(F_m) :        2336.040146
+ Max(F_s) :        2126.577191
+ Max(F_t) :         291.770928
+ time spent on convergence check:     0.026700
+ 
+ 
+ Intemdiate output at iteration           30
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.681900
+ 
+ 
+ iteration 00030 took        26.89 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           31
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.014100
+ time spent on bethe-salpeter is:     1.557700
+ time for communicating Phis:     0.067700
+ time for computing FT:     3.323900
+ time for communicating Phis:     0.028800
+ time for computing FT:     3.291900
+ time for communicating Phis:     0.032200
+ time for computing FT:     3.322900
+ time for communicating Phis:     0.033400
+ time for computing FT:     3.293900
+ time spent on calculating PhiR:    13.402300
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.287500
+ time spent on selfenergy calculation is:     2.030800
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000013121239
+ Max difference         :     0.000110456633
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000013123676
+ Rel. Err. Max(F_m) :     0.000004824863
+ Rel. Err. Max(F_s) :     0.000016339282
+ Rel. Err. Max(F_t) :     0.000017097742
+ Max(F_d) :        1213.053039
+ Max(F_m) :        2337.959787
+ Max(F_s) :        2126.611918
+ Max(F_t) :         291.775916
+ time spent on convergence check:     0.033100
+ 
+ iteration 00031 took        19.40 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           32
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.019900
+ time spent on bethe-salpeter is:     1.597100
+ time for communicating Phis:     0.033000
+ time for computing FT:     3.435300
+ time for communicating Phis:     0.027700
+ time for computing FT:     4.201600
+ time for communicating Phis:     0.028900
+ time for computing FT:     4.859900
+ time for communicating Phis:     0.062900
+ time for computing FT:     3.645100
+ time spent on calculating PhiR:    16.307100
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.556200
+ time spent on selfenergy calculation is:     2.048200
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000010921949
+ Max difference         :     0.000091547362
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000010529449
+ Rel. Err. Max(F_m) :     0.000004838140
+ Rel. Err. Max(F_s) :     0.000013150462
+ Rel. Err. Max(F_t) :     0.000013688156
+ Max(F_d) :        1213.065812
+ Max(F_m) :        2339.617438
+ Max(F_s) :        2126.639868
+ Max(F_t) :         291.779910
+ time spent on convergence check:     0.026500
+ 
+ iteration 00032 took        22.62 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           33
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020800
+ time spent on bethe-salpeter is:     1.588900
+ time for communicating Phis:     0.030000
+ time for computing FT:     3.571200
+ time for communicating Phis:     0.050800
+ time for computing FT:     3.775500
+ time for communicating Phis:     0.028700
+ time for computing FT:     3.487900
+ time for communicating Phis:     0.027500
+ time for computing FT:     3.591300
+ time spent on calculating PhiR:    14.577400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.318100
+ time spent on selfenergy calculation is:     2.130000
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000009102446
+ Max difference         :     0.000075967655
+ largest discrepancy at (kx, ky, nu) = (01 ,09 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000008473014
+ Rel. Err. Max(F_m) :     0.000004649828
+ Rel. Err. Max(F_s) :     0.000010614829
+ Rel. Err. Max(F_t) :     0.000010991582
+ Max(F_d) :        1213.076090
+ Max(F_m) :        2341.048937
+ Max(F_s) :        2126.662428
+ Max(F_t) :         291.783117
+ time spent on convergence check:     0.026700
+ 
+ iteration 00033 took        20.73 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           34
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020000
+ time spent on bethe-salpeter is:     1.669900
+ time for communicating Phis:     0.034800
+ time for computing FT:     3.653400
+ time for communicating Phis:     0.042600
+ time for computing FT:     3.786700
+ time for communicating Phis:     0.041000
+ time for computing FT:     3.326100
+ time for communicating Phis:     0.047200
+ time for computing FT:     3.278800
+ time spent on calculating PhiR:    14.221100
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.537000
+ time spent on selfenergy calculation is:     2.006800
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000007595020
+ Max difference         :     0.000063114700
+ largest discrepancy at (kx, ky, nu) = (09 ,01 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000006837002
+ Rel. Err. Max(F_m) :     0.000004344754
+ Rel. Err. Max(F_s) :     0.000008591405
+ Rel. Err. Max(F_t) :     0.000008851003
+ Max(F_d) :        1213.084384
+ Max(F_m) :        2342.285196
+ Max(F_s) :        2126.680689
+ Max(F_t) :         291.785700
+ time spent on convergence check:     0.027600
+ 
+ iteration 00034 took        20.55 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           35
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020300
+ time spent on bethe-salpeter is:     1.666300
+ time for communicating Phis:     0.031800
+ time for computing FT:     3.943400
+ time for communicating Phis:     0.044700
+ time for computing FT:     3.542300
+ time for communicating Phis:     0.041800
+ time for computing FT:     3.513400
+ time for communicating Phis:     0.029800
+ time for computing FT:     3.278300
+ time spent on calculating PhiR:    14.437300
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.267400
+ time spent on selfenergy calculation is:     1.969300
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000006344466
+ Max difference         :     0.000052521467
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000005531091
+ Rel. Err. Max(F_m) :     0.000003979983
+ Rel. Err. Max(F_s) :     0.000006971376
+ Rel. Err. Max(F_t) :     0.000007145932
+ Max(F_d) :        1213.091094
+ Max(F_m) :        2343.352883
+ Max(F_s) :        2126.695506
+ Max(F_t) :         291.787785
+ time spent on convergence check:     0.026100
+ 
+ 
+ Intemdiate output at iteration           35
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.465600
+ 
+ 
+ iteration 00035 took        24.91 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           36
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.014000
+ time spent on bethe-salpeter is:     1.611500
+ time for communicating Phis:     0.068800
+ time for computing FT:     3.321000
+ time for communicating Phis:     0.037300
+ time for computing FT:     3.248500
+ time for communicating Phis:     0.039700
+ time for computing FT:     3.280300
+ time for communicating Phis:     0.037200
+ time for computing FT:     3.281900
+ time spent on calculating PhiR:    13.322000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.284500
+ time spent on selfenergy calculation is:     1.950000
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000005305673
+ Max difference         :     0.000044401838
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000004485420
+ Rel. Err. Max(F_m) :     0.000003593165
+ Rel. Err. Max(F_s) :     0.000005670320
+ Rel. Err. Max(F_t) :     0.000005783419
+ Max(F_d) :        1213.096535
+ Max(F_m) :        2344.275018
+ Max(F_s) :        2126.707558
+ Max(F_t) :         291.789472
+ time spent on convergence check:     0.024700
+ 
+ iteration 00036 took        19.27 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           37
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020200
+ time spent on bethe-salpeter is:     1.577800
+ time for communicating Phis:     0.031400
+ time for computing FT:     3.297500
+ time for communicating Phis:     0.031700
+ time for computing FT:     3.249900
+ time for communicating Phis:     0.034600
+ time for computing FT:     3.256700
+ time for communicating Phis:     0.033000
+ time for computing FT:     3.291500
+ time spent on calculating PhiR:    13.238400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.285500
+ time spent on selfenergy calculation is:     1.961500
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000004441714
+ Max difference         :     0.000037575002
+ largest discrepancy at (kx, ky, nu) = (05 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000003645687
+ Rel. Err. Max(F_m) :     0.000003208447
+ Rel. Err. Max(F_s) :     0.000004622425
+ Rel. Err. Max(F_t) :     0.000004691402
+ Max(F_d) :        1213.100958
+ Max(F_m) :        2345.071466
+ Max(F_s) :        2126.717383
+ Max(F_t) :         291.790841
+ time spent on convergence check:     0.030900
+ 
+ iteration 00037 took        19.18 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           38
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.019500
+ time spent on bethe-salpeter is:     1.572100
+ time for communicating Phis:     0.050800
+ time for computing FT:     3.202500
+ time for communicating Phis:     0.075100
+ time for computing FT:     3.295400
+ time for communicating Phis:     0.037700
+ time for computing FT:     3.235600
+ time for communicating Phis:     0.036900
+ time for computing FT:     3.253200
+ time spent on calculating PhiR:    13.197000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.276400
+ time spent on selfenergy calculation is:     1.923700
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000003722305
+ Max difference         :     0.000031828122
+ largest discrepancy at (kx, ky, nu) = (13 ,13 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000002969495
+ Rel. Err. Max(F_m) :     0.000002840660
+ Rel. Err. Max(F_s) :     0.000003776157
+ Rel. Err. Max(F_t) :     0.000003813753
+ Max(F_d) :        1213.104560
+ Max(F_m) :        2345.759378
+ Max(F_s) :        2126.725409
+ Max(F_t) :         291.791954
+ time spent on convergence check:     0.024300
+ 
+ iteration 00038 took        19.08 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           39
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020600
+ time spent on bethe-salpeter is:     1.544100
+ time for communicating Phis:     0.024600
+ time for computing FT:     3.267400
+ time for communicating Phis:     0.033100
+ time for computing FT:     3.292600
+ time for communicating Phis:     0.031900
+ time for computing FT:     3.254400
+ time for communicating Phis:     0.027700
+ time for computing FT:     3.320300
+ time spent on calculating PhiR:    13.262200
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.308400
+ time spent on selfenergy calculation is:     1.964500
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000003122568
+ Max difference         :     0.000026984722
+ largest discrepancy at (kx, ky, nu) = (05 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000002423602
+ Rel. Err. Max(F_m) :     0.000002498285
+ Rel. Err. Max(F_s) :     0.000003090992
+ Rel. Err. Max(F_t) :     0.000003106563
+ Max(F_d) :        1213.107500
+ Max(F_m) :        2346.353558
+ Max(F_s) :        2126.731979
+ Max(F_t) :         291.792861
+ time spent on convergence check:     0.024800
+ 
+ iteration 00039 took        19.19 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           40
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020900
+ time spent on bethe-salpeter is:     1.598900
+ time for communicating Phis:     0.027800
+ time for computing FT:     3.251800
+ time for communicating Phis:     0.036300
+ time for computing FT:     3.288700
+ time for communicating Phis:     0.036400
+ time for computing FT:     3.248700
+ time for communicating Phis:     0.039300
+ time for computing FT:     3.262300
+ time spent on calculating PhiR:    13.203500
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.299000
+ time spent on selfenergy calculation is:     1.972700
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000002622035
+ Max difference         :     0.000022898221
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000001981843
+ Rel. Err. Max(F_m) :     0.000002185529
+ Rel. Err. Max(F_s) :     0.000002534943
+ Rel. Err. Max(F_t) :     0.000002535342
+ Max(F_d) :        1213.109904
+ Max(F_m) :        2346.866792
+ Max(F_s) :        2126.737367
+ Max(F_t) :         291.793600
+ time spent on convergence check:     0.024900
+ 
+ 
+ Intemdiate output at iteration           40
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.347600
+ 
+ 
+ iteration 00040 took        23.52 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           41
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.013900
+ time spent on bethe-salpeter is:     1.570500
+ time for communicating Phis:     0.065600
+ time for computing FT:     3.326000
+ time for communicating Phis:     0.030800
+ time for computing FT:     3.252300
+ time for communicating Phis:     0.030900
+ time for computing FT:     3.259600
+ time for communicating Phis:     0.030000
+ time for computing FT:     3.258600
+ time spent on calculating PhiR:    13.261000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.264000
+ time spent on selfenergy calculation is:     1.917400
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000002203840
+ Max difference         :     0.000019446672
+ largest discrepancy at (kx, ky, nu) = (13 ,13 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000001623544
+ Rel. Err. Max(F_m) :     0.000001903787
+ Rel. Err. Max(F_s) :     0.000002082667
+ Rel. Err. Max(F_t) :     0.000002072897
+ Max(F_d) :        1213.111874
+ Max(F_m) :        2347.310116
+ Max(F_s) :        2126.741793
+ Max(F_t) :         291.794205
+ time spent on convergence check:     0.024300
+ 
+ iteration 00041 took        19.12 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           42
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020600
+ time spent on bethe-salpeter is:     1.528000
+ time for communicating Phis:     0.027700
+ time for computing FT:     3.265500
+ time for communicating Phis:     0.027200
+ time for computing FT:     3.304900
+ time for communicating Phis:     0.027000
+ time for computing FT:     3.266000
+ time for communicating Phis:     0.027900
+ time for computing FT:     3.287600
+ time spent on calculating PhiR:    13.245000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.337800
+ time spent on selfenergy calculation is:     1.977100
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000001854069
+ Max difference         :     0.000016528459
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000001332318
+ Rel. Err. Max(F_m) :     0.000001652663
+ Rel. Err. Max(F_s) :     0.000001714018
+ Rel. Err. Max(F_t) :     0.000001697711
+ Max(F_d) :        1213.113490
+ Max(F_m) :        2347.693061
+ Max(F_s) :        2126.745437
+ Max(F_t) :         291.794701
+ time spent on convergence check:     0.026300
+ 
+ iteration 00042 took        19.20 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           43
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020600
+ time spent on bethe-salpeter is:     1.545600
+ time for communicating Phis:     0.068900
+ time for computing FT:     3.284400
+ time for communicating Phis:     0.019600
+ time for computing FT:     3.339400
+ time for communicating Phis:     0.028400
+ time for computing FT:     3.357900
+ time for communicating Phis:     0.031700
+ time for computing FT:     3.279000
+ time spent on calculating PhiR:    13.421200
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.274500
+ time spent on selfenergy calculation is:     1.988300
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000001561224
+ Max difference         :     0.000014058774
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000001095130
+ Rel. Err. Max(F_m) :     0.000001430661
+ Rel. Err. Max(F_s) :     0.000001412931
+ Rel. Err. Max(F_t) :     0.000001392705
+ Max(F_d) :        1213.114818
+ Max(F_m) :        2348.023858
+ Max(F_s) :        2126.748440
+ Max(F_t) :         291.795107
+ time spent on convergence check:     0.025000
+ 
+ iteration 00043 took        19.35 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           44
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.021100
+ time spent on bethe-salpeter is:     1.569700
+ time for communicating Phis:     0.032600
+ time for computing FT:     3.262300
+ time for communicating Phis:     0.034700
+ time for computing FT:     3.408500
+ time for communicating Phis:     0.035400
+ time for computing FT:     3.626900
+ time for communicating Phis:     0.041700
+ time for computing FT:     3.615700
+ time spent on calculating PhiR:    14.069600
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.375700
+ time spent on selfenergy calculation is:     1.991200
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000001315793
+ Max difference         :     0.000011966742
+ largest discrepancy at (kx, ky, nu) = (13 ,13 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000901583
+ Rel. Err. Max(F_m) :     0.000001235674
+ Rel. Err. Max(F_s) :     0.000001166554
+ Rel. Err. Max(F_t) :     0.000001144276
+ Max(F_d) :        1213.115912
+ Max(F_m) :        2348.309615
+ Max(F_s) :        2126.750919
+ Max(F_t) :         291.795441
+ time spent on convergence check:     0.026700
+ 
+ iteration 00044 took        20.12 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           45
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.021400
+ time spent on bethe-salpeter is:     1.639400
+ time for communicating Phis:     0.046600
+ time for computing FT:     3.666300
+ time for communicating Phis:     0.062100
+ time for computing FT:     3.521000
+ time for communicating Phis:     0.041700
+ time for computing FT:     3.415000
+ time for communicating Phis:     0.039300
+ time for computing FT:     3.287500
+ time spent on calculating PhiR:    14.087400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.439700
+ time spent on selfenergy calculation is:     2.110000
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000001109898
+ Max difference         :     0.000010193040
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000743361
+ Rel. Err. Max(F_m) :     0.000001065299
+ Rel. Err. Max(F_s) :     0.000000964580
+ Rel. Err. Max(F_t) :     0.000000941563
+ Max(F_d) :        1213.116814
+ Max(F_m) :        2348.556467
+ Max(F_s) :        2126.752969
+ Max(F_t) :         291.795716
+ time spent on convergence check:     0.027800
+ 
+ 
+ Intemdiate output at iteration           45
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.531500
+ 
+ 
+ iteration 00045 took        24.91 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           46
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.013900
+ time spent on bethe-salpeter is:     1.596600
+ time for communicating Phis:     0.065700
+ time for computing FT:     3.768200
+ time for communicating Phis:     0.035300
+ time for computing FT:     3.843700
+ time for communicating Phis:     0.040400
+ time for computing FT:     3.959400
+ time for communicating Phis:     0.040300
+ time for computing FT:     3.873600
+ time spent on calculating PhiR:    15.634300
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.308300
+ time spent on selfenergy calculation is:     1.971300
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000937004
+ Max difference         :     0.000008687957
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000613791
+ Rel. Err. Max(F_m) :     0.000000917045
+ Rel. Err. Max(F_s) :     0.000000798722
+ Rel. Err. Max(F_t) :     0.000000775869
+ Max(F_d) :        1213.117559
+ Max(F_m) :        2348.769718
+ Max(F_s) :        2126.754667
+ Max(F_t) :         291.795942
+ time spent on convergence check:     0.025000
+ 
+ iteration 00046 took        21.62 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           47
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020600
+ time spent on bethe-salpeter is:     1.588600
+ time for communicating Phis:     0.033500
+ time for computing FT:     3.316000
+ time for communicating Phis:     0.029400
+ time for computing FT:     3.307000
+ time for communicating Phis:     0.025500
+ time for computing FT:     3.329200
+ time for communicating Phis:     0.029100
+ time for computing FT:     3.400100
+ time spent on calculating PhiR:    13.481500
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.333000
+ time spent on selfenergy calculation is:     1.982000
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000791687
+ Max difference         :     0.000007409774
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000507509
+ Rel. Err. Max(F_m) :     0.000000788475
+ Rel. Err. Max(F_s) :     0.000000662296
+ Rel. Err. Max(F_t) :     0.000000640210
+ Max(F_d) :        1213.118174
+ Max(F_m) :        2348.953943
+ Max(F_s) :        2126.756075
+ Max(F_t) :         291.796129
+ time spent on convergence check:     0.024300
+ 
+ iteration 00047 took        19.50 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           48
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.021000
+ time spent on bethe-salpeter is:     1.569000
+ time for communicating Phis:     0.033300
+ time for computing FT:     4.217600
+ time for communicating Phis:     0.045600
+ time for computing FT:     3.504300
+ time for communicating Phis:     0.030700
+ time for computing FT:     3.297100
+ time for communicating Phis:     0.030400
+ time for computing FT:     3.692100
+ time spent on calculating PhiR:    14.864100
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.283500
+ time spent on selfenergy calculation is:     1.943500
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000669436
+ Max difference         :     0.000006323441
+ largest discrepancy at (kx, ky, nu) = (13 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000420191
+ Rel. Err. Max(F_m) :     0.000000677278
+ Rel. Err. Max(F_s) :     0.000000549901
+ Rel. Err. Max(F_t) :     0.000000528969
+ Max(F_d) :        1213.118684
+ Max(F_m) :        2349.113097
+ Max(F_s) :        2126.757244
+ Max(F_t) :         291.796283
+ time spent on convergence check:     0.026300
+ 
+ iteration 00048 took        20.78 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           49
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.014100
+ time spent on bethe-salpeter is:     1.741500
+ time for communicating Phis:     0.054800
+ time for computing FT:     3.974400
+ time for communicating Phis:     0.043400
+ time for computing FT:     4.210800
+ time for communicating Phis:     0.043000
+ time for computing FT:     3.405500
+ time for communicating Phis:     0.039400
+ time for computing FT:     3.791400
+ time spent on calculating PhiR:    15.584400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.358900
+ time spent on selfenergy calculation is:     1.961400
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000566499
+ Max difference         :     0.000005399478
+ largest discrepancy at (kx, ky, nu) = (05 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000348345
+ Rel. Err. Max(F_m) :     0.000000581321
+ Rel. Err. Max(F_s) :     0.000000457165
+ Rel. Err. Max(F_t) :     0.000000437613
+ Max(F_d) :        1213.119107
+ Max(F_m) :        2349.250593
+ Max(F_s) :        2126.758215
+ Max(F_t) :         291.796411
+ time spent on convergence check:     0.025800
+ 
+ iteration 00049 took        21.75 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           50
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020000
+ time spent on bethe-salpeter is:     1.580800
+ time for communicating Phis:     0.025600
+ time for computing FT:     3.328200
+ time for communicating Phis:     0.029500
+ time for computing FT:     3.288700
+ time for communicating Phis:     0.032900
+ time for computing FT:     3.290400
+ time for communicating Phis:     0.033400
+ time for computing FT:     3.319200
+ time spent on calculating PhiR:    13.358200
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.269700
+ time spent on selfenergy calculation is:     1.995300
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000479749
+ Max difference         :     0.000004613056
+ largest discrepancy at (kx, ky, nu) = (13 ,13 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000289143
+ Rel. Err. Max(F_m) :     0.000000498663
+ Rel. Err. Max(F_s) :     0.000000380538
+ Rel. Err. Max(F_t) :     0.000000362480
+ Max(F_d) :        1213.119457
+ Max(F_m) :        2349.369383
+ Max(F_s) :        2126.759024
+ Max(F_t) :         291.796517
+ time spent on convergence check:     0.029700
+ 
+ 
+ Intemdiate output at iteration           50
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.674500
+ 
+ 
+ iteration 00050 took        23.99 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           51
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.013900
+ time spent on bethe-salpeter is:     1.605500
+ time for communicating Phis:     0.071400
+ time for computing FT:     3.599700
+ time for communicating Phis:     0.023700
+ time for computing FT:     3.379400
+ time for communicating Phis:     0.036100
+ time for computing FT:     3.375400
+ time for communicating Phis:     0.033100
+ time for computing FT:     3.282900
+ time spent on calculating PhiR:    13.809400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.288100
+ time spent on selfenergy calculation is:     1.975300
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000406579
+ Max difference         :     0.000003943246
+ largest discrepancy at (kx, ky, nu) = (05 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000240291
+ Rel. Err. Max(F_m) :     0.000000427566
+ Rel. Err. Max(F_s) :     0.000000317133
+ Rel. Err. Max(F_t) :     0.000000300604
+ Max(F_d) :        1213.119749
+ Max(F_m) :        2349.472011
+ Max(F_s) :        2126.759698
+ Max(F_t) :         291.796604
+ time spent on convergence check:     0.025700
+ 
+ iteration 00051 took        19.79 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           52
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020600
+ time spent on bethe-salpeter is:     1.549000
+ time for communicating Phis:     0.031700
+ time for computing FT:     3.285700
+ time for communicating Phis:     0.040100
+ time for computing FT:     3.311600
+ time for communicating Phis:     0.031600
+ time for computing FT:     3.318300
+ time for communicating Phis:     0.032900
+ time for computing FT:     3.283100
+ time spent on calculating PhiR:    13.347600
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.266700
+ time spent on selfenergy calculation is:     1.941200
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000344813
+ Max difference         :     0.000003372384
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000199926
+ Rel. Err. Max(F_m) :     0.000000366483
+ Rel. Err. Max(F_s) :     0.000000264597
+ Rel. Err. Max(F_t) :     0.000000249577
+ Max(F_d) :        1213.119991
+ Max(F_m) :        2349.560679
+ Max(F_s) :        2126.760261
+ Max(F_t) :         291.796677
+ time spent on convergence check:     0.024100
+ 
+ iteration 00052 took        19.22 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           53
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020600
+ time spent on bethe-salpeter is:     1.577600
+ time for communicating Phis:     0.036700
+ time for computing FT:     3.301700
+ time for communicating Phis:     0.026200
+ time for computing FT:     3.353200
+ time for communicating Phis:     0.034000
+ time for computing FT:     3.390200
+ time for communicating Phis:     0.022100
+ time for computing FT:     3.287000
+ time spent on calculating PhiR:    13.460800
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.310400
+ time spent on selfenergy calculation is:     1.956400
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000292631
+ Max difference         :     0.000002885551
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000166529
+ Rel. Err. Max(F_m) :     0.000000314054
+ Rel. Err. Max(F_s) :     0.000000221011
+ Rel. Err. Max(F_t) :     0.000000207444
+ Max(F_d) :        1213.120193
+ Max(F_m) :        2349.637287
+ Max(F_s) :        2126.760730
+ Max(F_t) :         291.796738
+ time spent on convergence check:     0.025100
+ 
+ iteration 00053 took        19.42 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           54
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020600
+ time spent on bethe-salpeter is:     1.576300
+ time for communicating Phis:     0.029700
+ time for computing FT:     3.580600
+ time for communicating Phis:     0.033500
+ time for computing FT:     3.470600
+ time for communicating Phis:     0.031200
+ time for computing FT:     3.391900
+ time for communicating Phis:     0.022100
+ time for computing FT:     3.305800
+ time spent on calculating PhiR:    13.877600
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.272600
+ time spent on selfenergy calculation is:     1.978700
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000248511
+ Max difference         :     0.000002470129
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000138864
+ Rel. Err. Max(F_m) :     0.000000269086
+ Rel. Err. Max(F_s) :     0.000000184805
+ Rel. Err. Max(F_t) :     0.000000172611
+ Max(F_d) :        1213.120362
+ Max(F_m) :        2349.703476
+ Max(F_s) :        2126.761123
+ Max(F_t) :         291.796788
+ time spent on convergence check:     0.025300
+ 
+ iteration 00054 took        19.82 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           55
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020000
+ time spent on bethe-salpeter is:     1.569400
+ time for communicating Phis:     0.027000
+ time for computing FT:     3.335900
+ time for communicating Phis:     0.029200
+ time for computing FT:     3.288200
+ time for communicating Phis:     0.025300
+ time for computing FT:     3.295200
+ time for communicating Phis:     0.023800
+ time for computing FT:     3.339300
+ time spent on calculating PhiR:    13.376900
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.268900
+ time spent on selfenergy calculation is:     1.955700
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000211180
+ Max difference         :     0.000002115442
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000115917
+ Rel. Err. Max(F_m) :     0.000000230539
+ Rel. Err. Max(F_s) :     0.000000154693
+ Rel. Err. Max(F_t) :     0.000000143778
+ Max(F_d) :        1213.120502
+ Max(F_m) :        2349.760664
+ Max(F_s) :        2126.761452
+ Max(F_t) :         291.796830
+ time spent on convergence check:     0.026500
+ 
+ 
+ Intemdiate output at iteration           55
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.494300
+ 
+ 
+ iteration 00055 took        23.77 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           56
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.013900
+ time spent on bethe-salpeter is:     1.578600
+ time for communicating Phis:     0.064700
+ time for computing FT:     3.335800
+ time for communicating Phis:     0.028500
+ time for computing FT:     3.286400
+ time for communicating Phis:     0.032200
+ time for computing FT:     3.303700
+ time for communicating Phis:     0.039000
+ time for computing FT:     3.277700
+ time spent on calculating PhiR:    13.375300
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.275500
+ time spent on selfenergy calculation is:     1.963200
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000179569
+ Max difference         :     0.000001812443
+ largest discrepancy at (kx, ky, nu) = (13 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000096863
+ Rel. Err. Max(F_m) :     0.000000197510
+ Rel. Err. Max(F_s) :     0.000000129619
+ Rel. Err. Max(F_t) :     0.000000119885
+ Max(F_d) :        1213.120620
+ Max(F_m) :        2349.810076
+ Max(F_s) :        2126.761728
+ Max(F_t) :         291.796865
+ time spent on convergence check:     0.026000
+ 
+ iteration 00056 took        19.30 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           57
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020900
+ time spent on bethe-salpeter is:     1.611800
+ time for communicating Phis:     0.037200
+ time for computing FT:     3.279200
+ time for communicating Phis:     0.038100
+ time for computing FT:     3.292300
+ time for communicating Phis:     0.037100
+ time for computing FT:     3.321000
+ time for communicating Phis:     0.040200
+ time for computing FT:     3.280500
+ time spent on calculating PhiR:    13.336500
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.329500
+ time spent on selfenergy calculation is:     2.045200
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000152783
+ Max difference         :     0.000001553466
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000081022
+ Rel. Err. Max(F_m) :     0.000000169219
+ Rel. Err. Max(F_s) :     0.000000108716
+ Rel. Err. Max(F_t) :     0.000000100063
+ Max(F_d) :        1213.120718
+ Max(F_m) :        2349.852770
+ Max(F_s) :        2126.761959
+ Max(F_t) :         291.796894
+ time spent on convergence check:     0.026000
+ 
+ iteration 00057 took        19.44 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           58
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.014600
+ time spent on bethe-salpeter is:     1.656100
+ time for communicating Phis:     0.030600
+ time for computing FT:     3.368500
+ time for communicating Phis:     0.089600
+ time for computing FT:     3.285900
+ time for communicating Phis:     0.049400
+ time for computing FT:     3.307800
+ time for communicating Phis:     0.044400
+ time for computing FT:     3.322400
+ time spent on calculating PhiR:    13.506500
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.344100
+ time spent on selfenergy calculation is:     1.990500
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000130069
+ Max difference         :     0.000001332003
+ largest discrepancy at (kx, ky, nu) = (05 ,05 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000067838
+ Rel. Err. Max(F_m) :     0.000000144991
+ Rel. Err. Max(F_s) :     0.000000091273
+ Rel. Err. Max(F_t) :     0.000000083600
+ Max(F_d) :        1213.120801
+ Max(F_m) :        2349.889660
+ Max(F_s) :        2126.762153
+ Max(F_t) :         291.796919
+ time spent on convergence check:     0.025000
+ 
+ iteration 00058 took        19.61 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           59
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.019100
+ time spent on bethe-salpeter is:     1.581300
+ time for communicating Phis:     0.033100
+ time for computing FT:     3.323100
+ time for communicating Phis:     0.030800
+ time for computing FT:     3.297000
+ time for communicating Phis:     0.029500
+ time for computing FT:     3.288800
+ time for communicating Phis:     0.025900
+ time for computing FT:     3.336200
+ time spent on calculating PhiR:    13.377000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.282200
+ time spent on selfenergy calculation is:     1.988300
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000110795
+ Max difference         :     0.000001142531
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000056854
+ Rel. Err. Max(F_m) :     0.000000124245
+ Rel. Err. Max(F_s) :     0.000000076699
+ Rel. Err. Max(F_t) :     0.000000069912
+ Max(F_d) :        1213.120869
+ Max(F_m) :        2349.921536
+ Max(F_s) :        2126.762316
+ Max(F_t) :         291.796939
+ time spent on convergence check:     0.024400
+ 
+ iteration 00059 took        19.34 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           60
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020300
+ time spent on bethe-salpeter is:     1.618400
+ time for communicating Phis:     0.032300
+ time for computing FT:     3.320800
+ time for communicating Phis:     0.031400
+ time for computing FT:     3.298900
+ time for communicating Phis:     0.032100
+ time for computing FT:     3.292900
+ time for communicating Phis:     0.027500
+ time for computing FT:     3.313100
+ time spent on calculating PhiR:    13.361000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.276900
+ time spent on selfenergy calculation is:     1.979700
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000094430
+ Max difference         :     0.000000980352
+ largest discrepancy at (kx, ky, nu) = (13 ,13 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000047693
+ Rel. Err. Max(F_m) :     0.000000106482
+ Rel. Err. Max(F_s) :     0.000000064511
+ Rel. Err. Max(F_t) :     0.000000058520
+ Max(F_d) :        1213.120927
+ Max(F_m) :        2349.949078
+ Max(F_s) :        2126.762453
+ Max(F_t) :         291.796956
+ time spent on convergence check:     0.025200
+ 
+ 
+ Intemdiate output at iteration           60
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.456100
+ 
+ 
+ iteration 00060 took        23.80 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           61
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.014800
+ time spent on bethe-salpeter is:     1.599800
+ time for communicating Phis:     0.063600
+ time for computing FT:     3.308500
+ time for communicating Phis:     0.035900
+ time for computing FT:     3.290500
+ time for communicating Phis:     0.027700
+ time for computing FT:     3.330400
+ time for communicating Phis:     0.028400
+ time for computing FT:     3.275600
+ time spent on calculating PhiR:    13.370200
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.268100
+ time spent on selfenergy calculation is:     1.957500
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000080525
+ Max difference         :     0.000000841475
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000040044
+ Rel. Err. Max(F_m) :     0.000000091273
+ Rel. Err. Max(F_s) :     0.000000054308
+ Rel. Err. Max(F_t) :     0.000000049029
+ Max(F_d) :        1213.120976
+ Max(F_m) :        2349.972877
+ Max(F_s) :        2126.762568
+ Max(F_t) :         291.796970
+ time spent on convergence check:     0.026200
+ 
+ iteration 00061 took        19.30 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           62
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.019300
+ time spent on bethe-salpeter is:     1.577000
+ time for communicating Phis:     0.069100
+ time for computing FT:     3.347600
+ time for communicating Phis:     0.021100
+ time for computing FT:     3.381500
+ time for communicating Phis:     0.029100
+ time for computing FT:     3.327900
+ time for communicating Phis:     0.030800
+ time for computing FT:     3.271200
+ time spent on calculating PhiR:    13.490700
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.276500
+ time spent on selfenergy calculation is:     1.964000
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000068703
+ Max difference         :     0.000000722502
+ largest discrepancy at (kx, ky, nu) = (05 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000033652
+ Rel. Err. Max(F_m) :     0.000000078251
+ Rel. Err. Max(F_s) :     0.000000045758
+ Rel. Err. Max(F_t) :     0.000000041113
+ Max(F_d) :        1213.121017
+ Max(F_m) :        2349.993442
+ Max(F_s) :        2126.762665
+ Max(F_t) :         291.796982
+ time spent on convergence check:     0.026100
+ 
+ iteration 00062 took        19.42 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           63
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020600
+ time spent on bethe-salpeter is:     1.562600
+ time for communicating Phis:     0.034400
+ time for computing FT:     3.337500
+ time for communicating Phis:     0.026200
+ time for computing FT:     3.289200
+ time for communicating Phis:     0.032600
+ time for computing FT:     3.412900
+ time for communicating Phis:     0.032300
+ time for computing FT:     3.319100
+ time spent on calculating PhiR:    13.497400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.292200
+ time spent on selfenergy calculation is:     1.996800
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000058646
+ Max difference         :     0.000000620538
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000028304
+ Rel. Err. Max(F_m) :     0.000000067099
+ Rel. Err. Max(F_s) :     0.000000038586
+ Rel. Err. Max(F_t) :     0.000000034506
+ Max(F_d) :        1213.121051
+ Max(F_m) :        2350.011213
+ Max(F_s) :        2126.762748
+ Max(F_t) :         291.796993
+ time spent on convergence check:     0.024000
+ 
+ iteration 00063 took        19.46 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           64
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020200
+ time spent on bethe-salpeter is:     1.559100
+ time for communicating Phis:     0.055800
+ time for computing FT:     3.276200
+ time for communicating Phis:     0.068500
+ time for computing FT:     3.287400
+ time for communicating Phis:     0.043400
+ time for computing FT:     3.305500
+ time for communicating Phis:     0.039800
+ time for computing FT:     3.326800
+ time spent on calculating PhiR:    13.413800
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.284100
+ time spent on selfenergy calculation is:     1.928800
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000050085
+ Max difference         :     0.000000533121
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000023826
+ Rel. Err. Max(F_m) :     0.000000057548
+ Rel. Err. Max(F_s) :     0.000000032565
+ Rel. Err. Max(F_t) :     0.000000028985
+ Max(F_d) :        1213.121080
+ Max(F_m) :        2350.026568
+ Max(F_s) :        2126.762817
+ Max(F_t) :         291.797001
+ time spent on convergence check:     0.024000
+ 
+ iteration 00064 took        19.30 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           65
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.018100
+ time spent on bethe-salpeter is:     1.567400
+ time for communicating Phis:     0.036800
+ time for computing FT:     3.309600
+ time for communicating Phis:     0.027700
+ time for computing FT:     3.287400
+ time for communicating Phis:     0.022700
+ time for computing FT:     3.293200
+ time for communicating Phis:     0.034000
+ time for computing FT:     3.322000
+ time spent on calculating PhiR:    13.344400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.288500
+ time spent on selfenergy calculation is:     1.935000
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000042794
+ Max difference         :     0.000000458144
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000020074
+ Rel. Err. Max(F_m) :     0.000000049367
+ Rel. Err. Max(F_s) :     0.000000027505
+ Rel. Err. Max(F_t) :     0.000000024368
+ Max(F_d) :        1213.121104
+ Max(F_m) :        2350.039837
+ Max(F_s) :        2126.762875
+ Max(F_t) :         291.797008
+ time spent on convergence check:     0.025100
+ 
+ 
+ Intemdiate output at iteration           65
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.438400
+ 
+ 
+ iteration 00065 took        23.67 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           66
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.013900
+ time spent on bethe-salpeter is:     1.585500
+ time for communicating Phis:     0.065000
+ time for computing FT:     3.306300
+ time for communicating Phis:     0.032500
+ time for computing FT:     3.289200
+ time for communicating Phis:     0.033000
+ time for computing FT:     3.328100
+ time for communicating Phis:     0.028300
+ time for computing FT:     3.292200
+ time spent on calculating PhiR:    13.382500
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.260700
+ time spent on selfenergy calculation is:     1.962400
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000036581
+ Max difference         :     0.000000393817
+ largest discrepancy at (kx, ky, nu) = (05 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000016926
+ Rel. Err. Max(F_m) :     0.000000042359
+ Rel. Err. Max(F_s) :     0.000000023249
+ Rel. Err. Max(F_t) :     0.000000020503
+ Max(F_d) :        1213.121125
+ Max(F_m) :        2350.051304
+ Max(F_s) :        2126.762925
+ Max(F_t) :         291.797014
+ time spent on convergence check:     0.025100
+ 
+ iteration 00066 took        19.30 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           67
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020600
+ time spent on bethe-salpeter is:     1.556300
+ time for communicating Phis:     0.035400
+ time for computing FT:     3.305600
+ time for communicating Phis:     0.034800
+ time for computing FT:     3.272500
+ time for communicating Phis:     0.038900
+ time for computing FT:     3.272000
+ time for communicating Phis:     0.041100
+ time for computing FT:     3.290700
+ time spent on calculating PhiR:    13.302000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.306600
+ time spent on selfenergy calculation is:     1.935300
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000031284
+ Max difference         :     0.000000338608
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000014282
+ Rel. Err. Max(F_m) :     0.000000036353
+ Rel. Err. Max(F_s) :     0.000000019667
+ Rel. Err. Max(F_t) :     0.000000017265
+ Max(F_d) :        1213.121142
+ Max(F_m) :        2350.061213
+ Max(F_s) :        2126.762966
+ Max(F_t) :         291.797019
+ time spent on convergence check:     0.024200
+ 
+ iteration 00067 took        19.21 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           68
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020900
+ time spent on bethe-salpeter is:     1.548600
+ time for communicating Phis:     0.031900
+ time for computing FT:     3.325200
+ time for communicating Phis:     0.028800
+ time for computing FT:     3.285200
+ time for communicating Phis:     0.031800
+ time for computing FT:     3.289900
+ time for communicating Phis:     0.035900
+ time for computing FT:     3.310600
+ time spent on calculating PhiR:    13.351000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.269600
+ time spent on selfenergy calculation is:     1.944300
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000026765
+ Max difference         :     0.000000291209
+ largest discrepancy at (kx, ky, nu) = (05 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000012061
+ Rel. Err. Max(F_m) :     0.000000031206
+ Rel. Err. Max(F_s) :     0.000000016649
+ Rel. Err. Max(F_t) :     0.000000014549
+ Max(F_d) :        1213.121157
+ Max(F_m) :        2350.069775
+ Max(F_s) :        2126.763002
+ Max(F_t) :         291.797023
+ time spent on convergence check:     0.025200
+ 
+ iteration 00068 took        19.23 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           69
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020100
+ time spent on bethe-salpeter is:     1.560800
+ time for communicating Phis:     0.031100
+ time for computing FT:     3.311100
+ time for communicating Phis:     0.035200
+ time for computing FT:     3.281600
+ time for communicating Phis:     0.029400
+ time for computing FT:     3.280100
+ time for communicating Phis:     0.039200
+ time for computing FT:     3.283800
+ time spent on calculating PhiR:    13.304800
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.305800
+ time spent on selfenergy calculation is:     1.953300
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000022908
+ Max difference         :     0.000000250503
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000010193
+ Rel. Err. Max(F_m) :     0.000000026794
+ Rel. Err. Max(F_s) :     0.000000014103
+ Rel. Err. Max(F_t) :     0.000000012271
+ Max(F_d) :        1213.121169
+ Max(F_m) :        2350.077175
+ Max(F_s) :        2126.763032
+ Max(F_t) :         291.797027
+ time spent on convergence check:     0.025200
+ 
+ iteration 00069 took        19.24 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           70
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020400
+ time spent on bethe-salpeter is:     1.580600
+ time for communicating Phis:     0.023800
+ time for computing FT:     3.276300
+ time for communicating Phis:     0.030300
+ time for computing FT:     3.325800
+ time for communicating Phis:     0.026800
+ time for computing FT:     3.285600
+ time for communicating Phis:     0.036100
+ time for computing FT:     3.282800
+ time spent on calculating PhiR:    13.294500
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.279800
+ time spent on selfenergy calculation is:     1.935100
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000019615
+ Max difference         :     0.000000215534
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000008620
+ Rel. Err. Max(F_m) :     0.000000023010
+ Rel. Err. Max(F_s) :     0.000000011956
+ Rel. Err. Max(F_t) :     0.000000010356
+ Max(F_d) :        1213.121180
+ Max(F_m) :        2350.083569
+ Max(F_s) :        2126.763057
+ Max(F_t) :         291.797030
+ time spent on convergence check:     0.030700
+ 
+ 
+ Intemdiate output at iteration           70
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.403200
+ 
+ 
+ iteration 00070 took        23.59 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           71
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.013900
+ time spent on bethe-salpeter is:     1.571200
+ time for communicating Phis:     0.065800
+ time for computing FT:     3.363900
+ time for communicating Phis:     0.026200
+ time for computing FT:     3.313600
+ time for communicating Phis:     0.020200
+ time for computing FT:     3.422400
+ time for communicating Phis:     0.024500
+ time for computing FT:     3.336200
+ time spent on calculating PhiR:    13.580000
+ time spent on calculating Transformation Tensors:     0.000100
+ time spent on parquet is:     2.310900
+ time spent on selfenergy calculation is:     1.962700
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000016801
+ Max difference         :     0.000000185486
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000007296
+ Rel. Err. Max(F_m) :     0.000000019765
+ Rel. Err. Max(F_s) :     0.000000010142
+ Rel. Err. Max(F_t) :     0.000000008747
+ Max(F_d) :        1213.121188
+ Max(F_m) :        2350.089095
+ Max(F_s) :        2126.763079
+ Max(F_t) :         291.797033
+ time spent on convergence check:     0.024600
+ 
+ iteration 00071 took        19.53 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           72
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020500
+ time spent on bethe-salpeter is:     1.546700
+ time for communicating Phis:     0.028600
+ time for computing FT:     3.328200
+ time for communicating Phis:     0.029200
+ time for computing FT:     3.296000
+ time for communicating Phis:     0.030600
+ time for computing FT:     3.282900
+ time for communicating Phis:     0.028000
+ time for computing FT:     3.317800
+ time spent on calculating PhiR:    13.353000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.269000
+ time spent on selfenergy calculation is:     1.951900
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000014396
+ Max difference         :     0.000000159659
+ largest discrepancy at (kx, ky, nu) = (13 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000006179
+ Rel. Err. Max(F_m) :     0.000000016982
+ Rel. Err. Max(F_s) :     0.000000008609
+ Rel. Err. Max(F_t) :     0.000000007393
+ Max(F_d) :        1213.121196
+ Max(F_m) :        2350.093871
+ Max(F_s) :        2126.763097
+ Max(F_t) :         291.797035
+ time spent on convergence check:     0.025400
+ 
+ iteration 00072 took        19.23 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           73
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.019700
+ time spent on bethe-salpeter is:     1.569600
+ time for communicating Phis:     0.031300
+ time for computing FT:     3.312800
+ time for communicating Phis:     0.032000
+ time for computing FT:     3.292900
+ time for communicating Phis:     0.031700
+ time for computing FT:     3.298700
+ time for communicating Phis:     0.030800
+ time for computing FT:     3.372600
+ time spent on calculating PhiR:    13.416600
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.284600
+ time spent on selfenergy calculation is:     1.952600
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000012340
+ Max difference         :     0.000000137455
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000005236
+ Rel. Err. Max(F_m) :     0.000000014594
+ Rel. Err. Max(F_s) :     0.000000007312
+ Rel. Err. Max(F_t) :     0.000000006253
+ Max(F_d) :        1213.121202
+ Max(F_m) :        2350.097998
+ Max(F_s) :        2126.763113
+ Max(F_t) :         291.797037
+ time spent on convergence check:     0.025000
+ 
+ iteration 00073 took        19.34 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           74
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.019700
+ time spent on bethe-salpeter is:     1.559700
+ time for communicating Phis:     0.030200
+ time for computing FT:     3.272000
+ time for communicating Phis:     0.036200
+ time for computing FT:     3.318200
+ time for communicating Phis:     0.038100
+ time for computing FT:     3.274400
+ time for communicating Phis:     0.049900
+ time for computing FT:     3.273100
+ time spent on calculating PhiR:    13.303800
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.296800
+ time spent on selfenergy calculation is:     1.985800
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000010581
+ Max difference         :     0.000000118360
+ largest discrepancy at (kx, ky, nu) = (05 ,05 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000004441
+ Rel. Err. Max(F_m) :     0.000000012544
+ Rel. Err. Max(F_s) :     0.000000006215
+ Rel. Err. Max(F_t) :     0.000000005293
+ Max(F_d) :        1213.121208
+ Max(F_m) :        2350.101564
+ Max(F_s) :        2126.763126
+ Max(F_t) :         291.797038
+ time spent on convergence check:     0.031300
+ 
+ iteration 00074 took        19.27 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           75
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.019100
+ time spent on bethe-salpeter is:     1.552400
+ time for communicating Phis:     0.068100
+ time for computing FT:     3.275700
+ time for communicating Phis:     0.018400
+ time for computing FT:     3.293600
+ time for communicating Phis:     0.042300
+ time for computing FT:     3.300800
+ time for communicating Phis:     0.024200
+ time for computing FT:     3.261000
+ time spent on calculating PhiR:    13.296600
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.298500
+ time spent on selfenergy calculation is:     1.977700
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000009076
+ Max difference         :     0.000000101935
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000003768
+ Rel. Err. Max(F_m) :     0.000000010784
+ Rel. Err. Max(F_s) :     0.000000005285
+ Rel. Err. Max(F_t) :     0.000000004483
+ Max(F_d) :        1213.121212
+ Max(F_m) :        2350.104646
+ Max(F_s) :        2126.763137
+ Max(F_t) :         291.797039
+ time spent on convergence check:     0.024300
+ 
+ 
+ Intemdiate output at iteration           75
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.407200
+ 
+ 
+ iteration 00075 took        23.63 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           76
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.013900
+ time spent on bethe-salpeter is:     1.570400
+ time for communicating Phis:     0.066300
+ time for computing FT:     3.339400
+ time for communicating Phis:     0.032200
+ time for computing FT:     3.283500
+ time for communicating Phis:     0.028800
+ time for computing FT:     3.645400
+ time for communicating Phis:     0.041200
+ time for computing FT:     3.674200
+ time spent on calculating PhiR:    14.118500
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.280000
+ time spent on selfenergy calculation is:     1.983500
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000007787
+ Max difference         :     0.000000087805
+ largest discrepancy at (kx, ky, nu) = (13 ,13 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000003200
+ Rel. Err. Max(F_m) :     0.000000009273
+ Rel. Err. Max(F_s) :     0.000000004497
+ Rel. Err. Max(F_t) :     0.000000003799
+ Max(F_d) :        1213.121216
+ Max(F_m) :        2350.107310
+ Max(F_s) :        2126.763147
+ Max(F_t) :         291.797040
+ time spent on convergence check:     0.025400
+ 
+ iteration 00076 took        20.06 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           77
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020200
+ time spent on bethe-salpeter is:     1.581800
+ time for communicating Phis:     0.051900
+ time for computing FT:     3.258600
+ time for communicating Phis:     0.078700
+ time for computing FT:     3.295500
+ time for communicating Phis:     0.040200
+ time for computing FT:     3.280900
+ time for communicating Phis:     0.038100
+ time for computing FT:     3.308600
+ time spent on calculating PhiR:    13.360300
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.282800
+ time spent on selfenergy calculation is:     1.938500
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000006683
+ Max difference         :     0.000000075645
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000002719
+ Rel. Err. Max(F_m) :     0.000000007976
+ Rel. Err. Max(F_s) :     0.000000003829
+ Rel. Err. Max(F_t) :     0.000000003222
+ Max(F_d) :        1213.121219
+ Max(F_m) :        2350.109612
+ Max(F_s) :        2126.763155
+ Max(F_t) :         291.797041
+ time spent on convergence check:     0.026000
+ 
+ iteration 00077 took        19.28 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           78
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020600
+ time spent on bethe-salpeter is:     1.563800
+ time for communicating Phis:     0.022400
+ time for computing FT:     3.272800
+ time for communicating Phis:     0.033000
+ time for computing FT:     3.324500
+ time for communicating Phis:     0.032900
+ time for computing FT:     3.297400
+ time for communicating Phis:     0.030700
+ time for computing FT:     3.275900
+ time spent on calculating PhiR:    13.297800
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.258800
+ time spent on selfenergy calculation is:     1.945500
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000005738
+ Max difference         :     0.000000065179
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000002311
+ Rel. Err. Max(F_m) :     0.000000006861
+ Rel. Err. Max(F_s) :     0.000000003261
+ Rel. Err. Max(F_t) :     0.000000002734
+ Max(F_d) :        1213.121222
+ Max(F_m) :        2350.111601
+ Max(F_s) :        2126.763162
+ Max(F_t) :         291.797042
+ time spent on convergence check:     0.024300
+ 
+ iteration 00078 took        19.18 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           79
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020200
+ time spent on bethe-salpeter is:     1.568000
+ time for communicating Phis:     0.031800
+ time for computing FT:     3.285200
+ time for communicating Phis:     0.029400
+ time for computing FT:     3.319800
+ time for communicating Phis:     0.028900
+ time for computing FT:     3.293800
+ time for communicating Phis:     0.032100
+ time for computing FT:     3.303400
+ time spent on calculating PhiR:    13.336400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.317600
+ time spent on selfenergy calculation is:     1.947800
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000004927
+ Max difference         :     0.000000056169
+ largest discrepancy at (kx, ky, nu) = (05 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000001966
+ Rel. Err. Max(F_m) :     0.000000005903
+ Rel. Err. Max(F_s) :     0.000000002780
+ Rel. Err. Max(F_t) :     0.000000002322
+ Max(F_d) :        1213.121225
+ Max(F_m) :        2350.113321
+ Max(F_s) :        2126.763168
+ Max(F_t) :         291.797043
+ time spent on convergence check:     0.025600
+ 
+ iteration 00079 took        19.29 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           80
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020500
+ time spent on bethe-salpeter is:     1.578200
+ time for communicating Phis:     0.035800
+ time for computing FT:     3.290500
+ time for communicating Phis:     0.031000
+ time for computing FT:     3.329900
+ time for communicating Phis:     0.030600
+ time for computing FT:     3.314400
+ time for communicating Phis:     0.029900
+ time for computing FT:     3.288000
+ time spent on calculating PhiR:    13.361300
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.288200
+ time spent on selfenergy calculation is:     1.991100
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000004233
+ Max difference         :     0.000000048412
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000001673
+ Rel. Err. Max(F_m) :     0.000000005080
+ Rel. Err. Max(F_s) :     0.000000002370
+ Rel. Err. Max(F_t) :     0.000000001972
+ Max(F_d) :        1213.121227
+ Max(F_m) :        2350.114807
+ Max(F_s) :        2126.763173
+ Max(F_t) :         291.797043
+ time spent on convergence check:     0.026300
+ 
+ 
+ Intemdiate output at iteration           80
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.621100
+ 
+ 
+ iteration 00080 took        23.93 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           81
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.013900
+ time spent on bethe-salpeter is:     1.552700
+ time for communicating Phis:     0.065400
+ time for computing FT:     3.384400
+ time for communicating Phis:     0.031200
+ time for computing FT:     3.252100
+ time for communicating Phis:     0.025400
+ time for computing FT:     3.245500
+ time for communicating Phis:     0.033100
+ time for computing FT:     3.499700
+ time spent on calculating PhiR:    13.544000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.362100
+ time spent on selfenergy calculation is:     2.009500
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000003637
+ Max difference         :     0.000000041731
+ largest discrepancy at (kx, ky, nu) = (05 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000001425
+ Rel. Err. Max(F_m) :     0.000000004372
+ Rel. Err. Max(F_s) :     0.000000002022
+ Rel. Err. Max(F_t) :     0.000000001677
+ Max(F_d) :        1213.121228
+ Max(F_m) :        2350.116091
+ Max(F_s) :        2126.763177
+ Max(F_t) :         291.797044
+ time spent on convergence check:     0.024400
+ 
+ iteration 00081 took        19.58 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           82
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020200
+ time spent on bethe-salpeter is:     1.581100
+ time for communicating Phis:     0.026800
+ time for computing FT:     3.287200
+ time for communicating Phis:     0.030200
+ time for computing FT:     3.333400
+ time for communicating Phis:     0.029600
+ time for computing FT:     3.299600
+ time for communicating Phis:     0.030700
+ time for computing FT:     3.285600
+ time spent on calculating PhiR:    13.334700
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.285100
+ time spent on selfenergy calculation is:     1.964200
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000003125
+ Max difference         :     0.000000035977
+ largest discrepancy at (kx, ky, nu) = (05 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000001214
+ Rel. Err. Max(F_m) :     0.000000003764
+ Rel. Err. Max(F_s) :     0.000000001726
+ Rel. Err. Max(F_t) :     0.000000001426
+ Max(F_d) :        1213.121230
+ Max(F_m) :        2350.117201
+ Max(F_s) :        2126.763181
+ Max(F_t) :         291.797044
+ time spent on convergence check:     0.025100
+ 
+ iteration 00082 took        19.28 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           83
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020400
+ time spent on bethe-salpeter is:     1.547100
+ time for communicating Phis:     0.033500
+ time for computing FT:     3.287700
+ time for communicating Phis:     0.035100
+ time for computing FT:     3.340300
+ time for communicating Phis:     0.030600
+ time for computing FT:     3.304000
+ time for communicating Phis:     0.032300
+ time for computing FT:     3.286200
+ time spent on calculating PhiR:    13.361400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.267900
+ time spent on selfenergy calculation is:     1.966900
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000002687
+ Max difference         :     0.000000031020
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000001035
+ Rel. Err. Max(F_m) :     0.000000003241
+ Rel. Err. Max(F_s) :     0.000000001474
+ Rel. Err. Max(F_t) :     0.000000001214
+ Max(F_d) :        1213.121231
+ Max(F_m) :        2350.118160
+ Max(F_s) :        2126.763184
+ Max(F_t) :         291.797045
+ time spent on convergence check:     0.026800
+ 
+ iteration 00083 took        19.26 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           84
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020700
+ time spent on bethe-salpeter is:     1.582500
+ time for communicating Phis:     0.049300
+ time for computing FT:     3.228100
+ time for communicating Phis:     0.082000
+ time for computing FT:     3.359300
+ time for communicating Phis:     0.031300
+ time for computing FT:     3.334800
+ time for communicating Phis:     0.031400
+ time for computing FT:     3.291300
+ time spent on calculating PhiR:    13.414900
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.276600
+ time spent on selfenergy calculation is:     1.990800
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000002310
+ Max difference         :     0.000000026749
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000000883
+ Rel. Err. Max(F_m) :     0.000000002791
+ Rel. Err. Max(F_s) :     0.000000001259
+ Rel. Err. Max(F_t) :     0.000000001034
+ Max(F_d) :        1213.121232
+ Max(F_m) :        2350.118989
+ Max(F_s) :        2126.763186
+ Max(F_t) :         291.797045
+ time spent on convergence check:     0.025100
+ 
+ iteration 00084 took        19.38 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           85
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020300
+ time spent on bethe-salpeter is:     1.574300
+ time for communicating Phis:     0.026700
+ time for computing FT:     3.277300
+ time for communicating Phis:     0.030300
+ time for computing FT:     3.282400
+ time for communicating Phis:     0.031900
+ time for computing FT:     3.314800
+ time for communicating Phis:     0.032100
+ time for computing FT:     3.289700
+ time spent on calculating PhiR:    13.295800
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.279100
+ time spent on selfenergy calculation is:     1.959900
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000001987
+ Max difference         :     0.000000023068
+ largest discrepancy at (kx, ky, nu) = (05 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000000753
+ Rel. Err. Max(F_m) :     0.000000002403
+ Rel. Err. Max(F_s) :     0.000000001077
+ Rel. Err. Max(F_t) :     0.000000000881
+ Max(F_d) :        1213.121233
+ Max(F_m) :        2350.119705
+ Max(F_s) :        2126.763189
+ Max(F_t) :         291.797045
+ time spent on convergence check:     0.026700
+ 
+ 
+ Intemdiate output at iteration           85
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.407000
+ 
+ 
+ iteration 00085 took        23.62 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           86
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.013900
+ time spent on bethe-salpeter is:     1.584400
+ time for communicating Phis:     0.069000
+ time for computing FT:     3.316800
+ time for communicating Phis:     0.032100
+ time for computing FT:     3.318800
+ time for communicating Phis:     0.038300
+ time for computing FT:     3.287900
+ time for communicating Phis:     0.037300
+ time for computing FT:     3.286800
+ time spent on calculating PhiR:    13.394700
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.287200
+ time spent on selfenergy calculation is:     1.958400
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000001709
+ Max difference         :     0.000000019896
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000000643
+ Rel. Err. Max(F_m) :     0.000000002070
+ Rel. Err. Max(F_s) :     0.000000000921
+ Rel. Err. Max(F_t) :     0.000000000751
+ Max(F_d) :        1213.121234
+ Max(F_m) :        2350.120325
+ Max(F_s) :        2126.763191
+ Max(F_t) :         291.797046
+ time spent on convergence check:     0.025800
+ 
+ iteration 00086 took        19.33 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           87
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020500
+ time spent on bethe-salpeter is:     1.577700
+ time for communicating Phis:     0.068700
+ time for computing FT:     3.297700
+ time for communicating Phis:     0.019900
+ time for computing FT:     3.319700
+ time for communicating Phis:     0.029100
+ time for computing FT:     3.293200
+ time for communicating Phis:     0.028600
+ time for computing FT:     3.286600
+ time spent on calculating PhiR:    13.355700
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.293100
+ time spent on selfenergy calculation is:     1.962600
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000001470
+ Max difference         :     0.000000017162
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000000549
+ Rel. Err. Max(F_m) :     0.000000001784
+ Rel. Err. Max(F_s) :     0.000000000788
+ Rel. Err. Max(F_t) :     0.000000000640
+ Max(F_d) :        1213.121235
+ Max(F_m) :        2350.120860
+ Max(F_s) :        2126.763192
+ Max(F_t) :         291.797046
+ time spent on convergence check:     0.024600
+ 
+ iteration 00087 took        19.30 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           88
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020800
+ time spent on bethe-salpeter is:     1.574800
+ time for communicating Phis:     0.029800
+ time for computing FT:     3.272700
+ time for communicating Phis:     0.032600
+ time for computing FT:     3.306900
+ time for communicating Phis:     0.033400
+ time for computing FT:     3.272700
+ time for communicating Phis:     0.048900
+ time for computing FT:     3.276300
+ time spent on calculating PhiR:    13.284900
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.298600
+ time spent on selfenergy calculation is:     1.973200
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000001265
+ Max difference         :     0.000000014805
+ largest discrepancy at (kx, ky, nu) = (13 ,05 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000000469
+ Rel. Err. Max(F_m) :     0.000000001537
+ Rel. Err. Max(F_s) :     0.000000000674
+ Rel. Err. Max(F_t) :     0.000000000546
+ Max(F_d) :        1213.121235
+ Max(F_m) :        2350.121322
+ Max(F_s) :        2126.763194
+ Max(F_t) :         291.797046
+ time spent on convergence check:     0.025500
+ 
+ iteration 00088 took        19.24 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           89
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020200
+ time spent on bethe-salpeter is:     1.574200
+ time for communicating Phis:     0.034700
+ time for computing FT:     3.275700
+ time for communicating Phis:     0.030100
+ time for computing FT:     3.370000
+ time for communicating Phis:     0.038000
+ time for computing FT:     3.344800
+ time for communicating Phis:     0.034100
+ time for computing FT:     3.350900
+ time spent on calculating PhiR:    13.490000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.298000
+ time spent on selfenergy calculation is:     2.136400
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000001089
+ Max difference         :     0.000000012773
+ largest discrepancy at (kx, ky, nu) = (13 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000000401
+ Rel. Err. Max(F_m) :     0.000000001324
+ Rel. Err. Max(F_s) :     0.000000000577
+ Rel. Err. Max(F_t) :     0.000000000466
+ Max(F_d) :        1213.121236
+ Max(F_m) :        2350.121722
+ Max(F_s) :        2126.763195
+ Max(F_t) :         291.797046
+ time spent on convergence check:     0.026300
+ 
+ iteration 00089 took        19.61 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           90
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.020300
+ time spent on bethe-salpeter is:     1.565300
+ time for communicating Phis:     0.034200
+ time for computing FT:     3.360100
+ time for communicating Phis:     0.025500
+ time for computing FT:     3.280600
+ time for communicating Phis:     0.032300
+ time for computing FT:     3.348700
+ time for communicating Phis:     0.030200
+ time for computing FT:     3.310200
+ time spent on calculating PhiR:    13.434000
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.276300
+ time spent on selfenergy calculation is:     1.936400
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000000938
+ Max difference         :     0.000000011021
+ largest discrepancy at (kx, ky, nu) = (05 ,13 ,32 )
+ 
+ Rel. Err. Max(F_d) :     0.000000000343
+ Rel. Err. Max(F_m) :     0.000000001141
+ Rel. Err. Max(F_s) :     0.000000000494
+ Rel. Err. Max(F_t) :     0.000000000398
+ Max(F_d) :        1213.121236
+ Max(F_m) :        2350.122068
+ Max(F_s) :        2126.763196
+ Max(F_t) :         291.797046
+ time spent on convergence check:     0.024700
+ 
+ 
+ Intemdiate output at iteration           90
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.489700
+ 
+ 
+ iteration 00090 took        23.80 s               
+ -------------------------------------------------------------------------------
+ 
+ Starting Iteration :           91
+ 
+ particle number is:    1.000000 chemical potential is    0.000000
+ time to calculate Greens funcion:     0.013900
+ time spent on bethe-salpeter is:     1.589300
+ time for communicating Phis:     0.071000
+ time for computing FT:     3.313800
+ time for communicating Phis:     0.032500
+ time for computing FT:     3.302400
+ time for communicating Phis:     0.036500
+ time for computing FT:     3.280800
+ time for communicating Phis:     0.040100
+ time for computing FT:     3.274500
+ time spent on calculating PhiR:    13.359400
+ time spent on calculating Transformation Tensors:     0.000000
+ time spent on parquet is:     2.254300
+ time spent on selfenergy calculation is:     1.956500
+ 
+ Convergence :
+ 
+ Sigma averaged error   :     0.000000000807
+ Max difference         :     0.000000009510
+ largest discrepancy at (kx, ky, nu) = (13 ,13 ,33 )
+ 
+ Rel. Err. Max(F_d) :     0.000000000293
+ Rel. Err. Max(F_m) :     0.000000000984
+ Rel. Err. Max(F_s) :     0.000000000423
+ Rel. Err. Max(F_t) :     0.000000000340
+ Max(F_d) :        1213.121236
+ Max(F_m) :        2350.122366
+ Max(F_s) :        2126.763197
+ Max(F_t) :         291.797046
+ time spent on convergence check:     0.024500
+ 
+ 
+ Intemdiate output at iteration           91
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ write selfenergy
+ write susceptibilities
+ Intemediate-output took:     4.471600
+ 
+ 
+ iteration 00091 took        23.71 s               
+ -------------------------------------------------------------------------------
+ End Loop
+ particle number is:    1.000000 chemical potential is    0.000000
+ calculating bare bubble 'exactly'
+ writing program output to 
+ data/TUPS_NxN0256_Nl0001_Nf0064_U0020_B05_Gr0001_n0100_pa_U2_new_SDEnew.hdf5   
+                                          
+TUPS took: 1943.757900
+ finalizing hdf5

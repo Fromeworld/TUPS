@@ -22,7 +22,7 @@ module parquet_PhiR
   !buffers - without zgemm semms to segfault - dont know why
   complex(dp), allocatable :: dummy1(:, :), dummy2(:, :)
 
-  ! public :: calc_PhiR
+  public :: calc_PhiR
   public :: getWTask
   public :: task_has_w
   public :: symop_arr
@@ -35,75 +35,75 @@ contains
   subroutine calc_PhiR(ite)
     integer, intent(in) :: ite
 
-    !loop varibales
-    integer :: channel, w1
+      !loop varibales
+      integer :: channel, w1
 
 
-    !for hdf5 output
-    integer(hid_t) :: file_ident
-    character(len = 30) :: label
+      !for hdf5 output
+      integer(hid_t) :: file_ident
+      character(len = 30) :: label
 
-    !for timing
-    integer(4) :: count_rate, count_max
-    !count_launch -> counts at program launch, count_iteration -> count at
-    !beginning of iteration
-    integer(4) :: count_launch, count_iteration, count_start, count_end
+      !for timing
+      integer(4) :: count_rate, count_max
+      !count_launch -> counts at program launch, count_iteration -> count at
+      !beginning of iteration
+      integer(4) :: count_launch, count_iteration, count_start, count_end
 
-    !allocate memory on nodes where Phi_R is saved
-    if(task_has_w()) then
+      !allocate memory on nodes where Phi_R is saved
+      if(task_has_w()) then
 
-      if(.not. allocated(PhiRd)) allocate(PhiRd(Nz * Nz, wperTask, NR))
-      if(.not. allocated(PhiRm)) allocate(PhiRm(Nz * Nz, wperTask, NR))
-      if(.not. allocated(PhiRs)) allocate(PhiRs(Nz * Nz, wperTask, NR))
-      if(.not. allocated(PhiRt)) allocate(PhiRt(Nz * Nz, wperTask, NR))
+        if(.not. allocated(PhiRd)) allocate(PhiRd(Nz * Nz, wperTask, NR))
+        if(.not. allocated(PhiRm)) allocate(PhiRm(Nz * Nz, wperTask, NR))
+        if(.not. allocated(PhiRs)) allocate(PhiRs(Nz * Nz, wperTask, NR))
+        if(.not. allocated(PhiRt)) allocate(PhiRt(Nz * Nz, wperTask, NR))
 
-      PhiRd = 0.0d0
-      PhiRm = 0.0d0
-      PhiRs = 0.0d0
-      PhiRt = 0.0d0
+        PhiRd = 0.0d0
+        PhiRm = 0.0d0
+        PhiRs = 0.0d0
+        PhiRt = 0.0d0
 
-      if(.not. allocated(PhiQ)) allocate(PhiQ(Nz, Nz, NIBZ * wperTask))
-      PhiQ = 0.0d0
+        if(.not. allocated(PhiQ)) allocate(PhiQ(Nz, Nz, NIBZ * wperTask))
+        PhiQ = 0.0d0
 
-    end if !task_has_w
+      end if !task_has_w
 
-    do channel = 1, 4
-
-
-      call system_clock(count_start, count_rate, count_max)
-
-      !!get PhiQ for specific Q on one node
-      call communicatePhis(channel, PhiQ)
-
-      call system_clock(count_end, count_rate, count_max)
-      if (id == master) write (*, "(a, f12.6)") ' time for communicating Phis: ', &!t_end - t_start
-                                          dble(count_end - count_start)/dble(count_rate)
+      do channel = 1, 4
 
 
-      call system_clock(count_start, count_rate, count_max)
+        call system_clock(count_start, count_rate, count_max)
 
-      do w1 = 1, Nf/2
-        !Only transform stuff on nodes that actually have something to transform
-        if(getwTask(w1) == id) then
-          !transform to R-space
-          call FTPhis(channel, w1, PhiQ)
-        end if
+        !!get PhiQ for specific Q on one node
+        call communicatePhis(channel, PhiQ)
 
-      end do !w1
+        call system_clock(count_end, count_rate, count_max)
+        if (id == master) write (*, "(a, f12.6)") ' time for communicating Phis: ', &!t_end - t_start
+                                            dble(count_end - count_start)/dble(count_rate)
 
-      call system_clock(count_end, count_rate, count_max)
-      if (id == master) write (*, "(a, f12.6)") ' time for computing FT: ', &!t_end - t_start
-                                          dble(count_end - count_start)/dble(count_rate)
 
-    end do !channel
+        call system_clock(count_start, count_rate, count_max)
 
-    !if(ite == ite_max - 1 .and. id == master) then
-    !  ! produce output for comparison
-    !  call hdf5_open_file(file_main, file_ident)
-    !  label = 'checkPhiR/ZPhiRd'
-    !  call hdf5_write_data(file_ident, label, reshape(PhiRd, (/Nz, Nz, wperTask * NR/)))
-    !  call hdf5_close_file(file_ident)
-    !end if
+        do w1 = 1, Nf/2
+          !Only transform stuff on nodes that actually have something to transform
+          if(getwTask(w1) == id) then
+            !transform to R-space
+            call FTPhis(channel, w1, PhiQ)
+          end if
+
+        end do !w1
+
+        call system_clock(count_end, count_rate, count_max)
+        if (id == master) write (*, "(a, f12.6)") ' time for computing FT: ', &!t_end - t_start
+                                            dble(count_end - count_start)/dble(count_rate)
+
+      end do !channel
+
+      if(ite == ite_max - 1 .and. id == master) then
+       ! produce output for comparison
+       call hdf5_open_file(file_main, file_ident)
+       label = 'checkPhiR/ZPhiRd'
+       call hdf5_write_data(file_ident, label, reshape(PhiRd, (/Nz, Nz, wperTask * NR/)))
+       call hdf5_close_file(file_ident)
+      end if
 
 
   end subroutine calc_PhiR
