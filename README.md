@@ -1,4 +1,6 @@
 # TUPS
+<https://github.com/annakauch/TUPS>
+
 This Code realizes an implementation of the Truncated Unity parquet equations and is thus called  **T**runcated **U**nity **P**arquet **S**olver (TUPS).
 As a reference, also checkout the corresponding  [paper](https://arxiv.org/abs/1912.07469).
 For more information on the Truncated Unity parquet equations in general also see  [here](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.98.075143).
